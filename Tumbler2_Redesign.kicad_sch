@@ -3846,183 +3846,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "SY6280AAC_1"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 0 11.176 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "Value" "SY6280AAC"
-				(at 0 8.89 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "Footprint" "Tumbler2:SOT95P285X130-5N"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.lcsc.com/datasheet/C55136.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "2.4V~5.5V 1 Active High High Side Switch SOT-23-5 Power Distribution Switches, Load Drivers RoHS"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "SnapEDA_Link" "https://www.snapeda.com/parts/SY6280AAC/Silergy/view-part/?ref=snap"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Product_Link" "https://www.lcsc.com/product-detail/C55136.html"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SY6280AAC_1_0_0"
-				(rectangle
-					(start -7.62 7.62)
-					(end 7.62 -2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin input line
-					(at -10.16 5.08 0)
-					(length 2.54)
-					(name "IN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -10.16 0 0)
-					(length 2.54)
-					(name "EN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -5.08 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 10.16 5.08 180)
-					(length 2.54)
-					(name "OUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 10.16 0 180)
-					(length 2.54)
-					(name "ISET"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Switch:SW_Push"
 			(pin_numbers
 				(hide yes)
@@ -5248,16 +5071,16 @@
 	(bus_alias "USB_2"
 		(members "DP" "DM")
 	)
-	(text "Current limit programming:\nI_{limit} = 6800 / Rset\n"
+	(text "Battery Charging IC\nINJOINIC IP5306\nTI BQ25887RGER"
 		(exclude_from_sim no)
-		(at 65.278 120.65 0)
+		(at 151.638 99.822 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "06d87912-f154-46c0-bc0d-07cdb77c6e12")
+		(uuid "5f36e912-bfc0-47f9-8ed1-cae5f8095ef4")
 	)
 	(junction
 		(at 74.93 72.39)
@@ -5276,12 +5099,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "04871443-2ca2-4c90-91b7-ed6f778c70eb")
-	)
-	(junction
-		(at 30.48 96.52)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "07bce6ff-7103-487a-8c23-d223d1a927f3")
 	)
 	(junction
 		(at 35.56 182.88)
@@ -5326,12 +5143,6 @@
 		(uuid "57eb5084-4754-4508-8368-3ec9e9d40066")
 	)
 	(junction
-		(at 78.74 96.52)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5bd2e57f-54bf-4d51-a8fc-fe9c1da93f38")
-	)
-	(junction
 		(at 100.33 29.21)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5366,12 +5177,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8bb1c5e4-7554-4ed2-a723-bf1954c88429")
-	)
-	(junction
-		(at 41.91 96.52)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "90077ebc-9c60-469a-8f0c-07359f03d080")
 	)
 	(junction
 		(at 30.48 39.37)
@@ -6023,16 +5828,6 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 96.52) (xy 78.74 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2b2696e8-dbeb-441f-9503-08b25772baa4")
-	)
-	(wire
-		(pts
 			(xy 24.13 71.12) (xy 24.13 72.39)
 		)
 		(stroke
@@ -6090,16 +5885,6 @@
 			(type default)
 		)
 		(uuid "309dc69c-7b43-412d-a783-53fe5b506ccf")
-	)
-	(wire
-		(pts
-			(xy 30.48 96.52) (xy 41.91 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "315ee1ac-4e77-488b-93b1-1896a66ca2b7")
 	)
 	(wire
 		(pts
@@ -6233,16 +6018,6 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 96.52) (xy 78.74 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "456d016d-0bf7-47d0-b187-a04beb4fd5ac")
-	)
-	(wire
-		(pts
 			(xy 226.06 72.39) (xy 229.87 72.39)
 		)
 		(stroke
@@ -6340,16 +6115,6 @@
 			(type default)
 		)
 		(uuid "55036ead-9ad4-4b8a-a8d9-8adbc45cafeb")
-	)
-	(wire
-		(pts
-			(xy 78.74 95.25) (xy 78.74 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "58091437-3b49-4faf-8c9e-b4edb002c77c")
 	)
 	(wire
 		(pts
@@ -6691,16 +6456,6 @@
 		)
 		(uuid "7ced48ff-9617-4e1c-9673-c850a8b67a15")
 	)
-	(wire
-		(pts
-			(xy 67.31 101.6) (xy 63.5 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7dae5fa5-8739-40a3-8ba2-0cacbe069d9f")
-	)
 	(bus
 		(pts
 			(xy 187.96 46.99) (xy 186.69 46.99)
@@ -6720,16 +6475,6 @@
 			(type default)
 		)
 		(uuid "8385c196-e77e-45c3-b180-cfb7e54edc7b")
-	)
-	(wire
-		(pts
-			(xy 30.48 99.06) (xy 30.48 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "85b5bcc7-5b10-45f3-bf04-b015f5ae1e36")
 	)
 	(bus
 		(pts
@@ -6973,16 +6718,6 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 101.6) (xy 41.91 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a5ca3850-6c7f-4e3f-8c14-a094561dd12b")
-	)
-	(wire
-		(pts
 			(xy 87.63 29.21) (xy 87.63 30.48)
 		)
 		(stroke
@@ -7033,16 +6768,6 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 110.49) (xy 53.34 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ac915ca7-1c11-4211-9afe-003cebf1f965")
-	)
-	(wire
-		(pts
 			(xy 107.95 182.88) (xy 113.03 182.88)
 		)
 		(stroke
@@ -7060,16 +6785,6 @@
 			(type default)
 		)
 		(uuid "af0a3d84-601c-4f71-90b8-cdddcbe27240")
-	)
-	(wire
-		(pts
-			(xy 30.48 110.49) (xy 30.48 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "af237d18-c2c6-4442-a859-567154a27c64")
 	)
 	(wire
 		(pts
@@ -7143,16 +6858,6 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 102.87) (xy 67.31 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b6bedde3-1d4c-454f-ac8f-ac3c59b17c00")
-	)
-	(wire
-		(pts
 			(xy 30.48 172.72) (xy 35.56 172.72)
 		)
 		(stroke
@@ -7223,16 +6928,6 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 96.52) (xy 41.91 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c0445ef3-5cbd-4911-a6d5-97846f034c4a")
-	)
-	(wire
-		(pts
 			(xy 266.7 35.56) (xy 266.7 33.02)
 		)
 		(stroke
@@ -7260,16 +6955,6 @@
 			(type default)
 		)
 		(uuid "c2a1e021-1121-4088-8c88-f6657ffb9de2")
-	)
-	(wire
-		(pts
-			(xy 78.74 106.68) (xy 78.74 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c2a5f004-ab7e-4bfa-82ea-1939a17428cc")
 	)
 	(wire
 		(pts
@@ -7310,26 +6995,6 @@
 			(type default)
 		)
 		(uuid "c81c711c-7125-404b-8f05-df8068780b71")
-	)
-	(wire
-		(pts
-			(xy 30.48 96.52) (xy 30.48 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c91bdcef-3970-4b03-9340-e6e29a20386c")
-	)
-	(wire
-		(pts
-			(xy 41.91 96.52) (xy 43.18 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c927fd5f-eccb-421c-b25b-48d82108b6a7")
 	)
 	(wire
 		(pts
@@ -8739,72 +8404,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 53.34 110.49 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "12f8bce0-2a72-43ac-abe1-c92352f4c387")
-		(property "Reference" "#PWR035"
-			(at 53.34 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 53.34 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 53.34 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 53.34 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 53.34 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2cd2e99a-e677-4289-98a8-497271567027")
-		)
-		(instances
-			(project "Tumbler2_Redesign"
-				(path "/f3fd8d79-9d35-4c04-811e-2697a2740958"
-					(reference "#PWR035")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Transistor_BJT:BC817")
 		(at 210.82 87.63 180)
 		(unit 1)
@@ -9538,7 +9137,7 @@
 		(dnp no)
 		(uuid "2755d001-8637-40a9-8d4a-83ab94608fae")
 		(property "Reference" "R7"
-			(at 60.706 136.398 90)
+			(at 60.706 136.144 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9830,76 +9429,6 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 67.31 106.68 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2ba1b15a-77ba-4e01-a2cd-3e0959d1a7a6")
-		(property "Reference" "R6"
-			(at 69.85 105.4099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "4k7"
-			(at 69.85 107.9499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 65.532 106.68 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 67.31 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 67.31 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "b97d53a0-25da-4333-becd-020822d82b8e")
-		)
-		(pin "1"
-			(uuid "ffa5135b-2481-43f4-a977-b0c79254a3d3")
-		)
-		(instances
-			(project ""
-				(path "/f3fd8d79-9d35-4c04-811e-2697a2740958"
-					(reference "R6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
 		(at 139.7 138.43 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9908,7 +9437,7 @@
 		(dnp no)
 		(uuid "2cd6301f-193a-4762-a57c-07cacd01149a")
 		(property "Reference" "R8"
-			(at 138.176 136.398 90)
+			(at 138.176 136.144 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10492,72 +10021,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 30.48 110.49 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3edf2aa5-f38b-4ab4-bc6d-00727e2732c5")
-		(property "Reference" "#PWR034"
-			(at 30.48 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 30.48 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 30.48 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 30.48 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 30.48 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e1276946-dd65-4704-bb2d-f3457aa6c708")
-		)
-		(instances
-			(project "Tumbler2_Redesign"
-				(path "/f3fd8d79-9d35-4c04-811e-2697a2740958"
-					(reference "#PWR034")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 195.58 137.16 0)
 		(unit 1)
@@ -10910,72 +10373,6 @@
 			(project "Tumbler2_Redesign"
 				(path "/f3fd8d79-9d35-4c04-811e-2697a2740958"
 					(reference "C4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 78.74 110.49 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4b7ac211-0f6b-40af-8098-eb8ed0b4f384")
-		(property "Reference" "#PWR037"
-			(at 78.74 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 78.74 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 78.74 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 78.74 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 78.74 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d99603d9-c415-439b-b1f2-54bebdfa5cd3")
-		)
-		(instances
-			(project "Tumbler2_Redesign"
-				(path "/f3fd8d79-9d35-4c04-811e-2697a2740958"
-					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -12285,85 +11682,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 78.74 102.87 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "75e8d6e5-6fd2-4900-839b-ea879a14b152")
-		(property "Reference" "C18"
-			(at 82.55 101.5999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10uF"
-			(at 82.55 104.1399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 79.7052 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 78.74 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 78.74 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Product_Link" ""
-			(at 78.74 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7497ad2b-36f1-4b39-accb-d615f97af283")
-		)
-		(pin "2"
-			(uuid "51dcacbb-74fe-4ce4-840d-1316faae4e4d")
-		)
-		(instances
-			(project "Tumbler2_Redesign"
-				(path "/f3fd8d79-9d35-4c04-811e-2697a2740958"
-					(reference "C18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 87.63 39.37 0)
 		(unit 1)
@@ -12738,85 +12056,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:SS34")
-		(at 78.74 91.44 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "87bda50a-6d80-4fc3-9886-795f0c48b3b1")
-		(property "Reference" "D2"
-			(at 81.28 89.8524 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SS34"
-			(at 81.28 92.3924 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SMA"
-			(at 74.295 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/88751/ss32.pdf"
-			(at 78.74 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "40V 3A Schottky Diode, SMA"
-			(at 78.74 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Product_Link" "https://www.lcsc.com/product-detail/C8678.html"
-			(at 78.74 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7fa11e1d-e854-487e-9953-d42e7d463b29")
-		)
-		(pin "2"
-			(uuid "26456580-e01b-46b7-887e-905783cdcb82")
-		)
-		(instances
-			(project "Tumbler2_Redesign"
-				(path "/f3fd8d79-9d35-4c04-811e-2697a2740958"
-					(reference "D2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 201.93 35.56 0)
 		(unit 1)
@@ -13027,7 +12266,7 @@
 		(dnp no)
 		(uuid "8c21db78-e72d-4559-9f0a-fb8b5a1e483a")
 		(property "Reference" "R11"
-			(at 138.176 143.002 90)
+			(at 138.684 143.256 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13492,7 +12731,7 @@
 		(dnp no)
 		(uuid "9761ab57-9d3c-4992-a943-724f75672ace")
 		(property "Reference" "R10"
-			(at 60.706 143.002 90)
+			(at 61.214 143.256 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14182,72 +13421,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VCC")
-		(at 30.48 87.63 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "af259f32-87f8-45ca-9502-8a94fc78ad99")
-		(property "Reference" "#PWR030"
-			(at 30.48 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VBUS"
-			(at 30.48 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 30.48 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 30.48 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 30.48 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "523c5b5e-bd74-4765-9114-f2f76eaf6356")
-		)
-		(instances
-			(project "Tumbler2_Redesign"
-				(path "/f3fd8d79-9d35-4c04-811e-2697a2740958"
-					(reference "#PWR030")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 67.31 139.7 90)
 		(unit 1)
@@ -14673,72 +13846,6 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 78.74 87.63 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bb3a11f4-579c-4433-a9c2-9b83a0ec6d69")
-		(property "Reference" "#PWR031"
-			(at 78.74 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "5V"
-			(at 78.74 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 78.74 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 78.74 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 78.74 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6b2b7d93-d19d-4d12-9835-f385e113bacc")
-		)
-		(instances
-			(project "Tumbler2_Redesign"
-				(path "/f3fd8d79-9d35-4c04-811e-2697a2740958"
-					(reference "#PWR031")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VCC")
 		(at 233.68 26.67 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15015,72 +14122,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 67.31 110.49 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c1766d7b-8eeb-4406-9fc9-fa6d0b26e2b3")
-		(property "Reference" "#PWR036"
-			(at 67.31 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 67.31 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 67.31 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 67.31 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 67.31 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "23a04df7-a0bc-4196-9ebb-56c67f856faf")
-		)
-		(instances
-			(project "Tumbler2_Redesign"
-				(path "/f3fd8d79-9d35-4c04-811e-2697a2740958"
-					(reference "#PWR036")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 67.31 175.26 0)
 		(unit 1)
@@ -15154,85 +14195,6 @@
 			(project "Tumbler2_Redesign"
 				(path "/f3fd8d79-9d35-4c04-811e-2697a2740958"
 					(reference "C20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 30.48 102.87 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c39ba80c-1d7f-424b-a3ea-cee4de665f4a")
-		(property "Reference" "C17"
-			(at 34.29 101.5999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10uF"
-			(at 34.29 104.1399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 31.4452 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 30.48 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 30.48 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Product_Link" ""
-			(at 30.48 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a61d968e-e4d4-494f-9257-ae3f39674e95")
-		)
-		(pin "2"
-			(uuid "2d2a749f-cd2f-4acd-bc49-42e30e96296f")
-		)
-		(instances
-			(project "Tumbler2_Redesign"
-				(path "/f3fd8d79-9d35-4c04-811e-2697a2740958"
-					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -16178,104 +15140,6 @@
 			(project "Tumbler2_Redesign"
 				(path "/f3fd8d79-9d35-4c04-811e-2697a2740958"
 					(reference "#PWR07")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "SY6280AAC_1")
-		(lib_id "Tumbler2:SY6280AAC")
-		(at 53.34 101.6 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ddd8f254-6519-4d20-baf6-b6f9316130d1")
-		(property "Reference" "U5"
-			(at 53.34 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SY6280AAC"
-			(at 53.34 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Tumbler2:SOT95P285X130-5N"
-			(at 53.34 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C55136.pdf"
-			(at 53.34 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "2.4V~5.5V 1 Active High High Side Switch SOT-23-5 Power Distribution Switches, Load Drivers RoHS"
-			(at 53.34 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/SY6280AAC/Silergy/view-part/?ref=snap"
-			(at 53.34 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Product_Link" "https://www.lcsc.com/product-detail/C55136.html"
-			(at 53.34 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "e5f31eb6-b1d3-4a89-990c-b0a696af1658")
-		)
-		(pin "3"
-			(uuid "4278b427-fe60-4396-a570-7b55273601ef")
-		)
-		(pin "5"
-			(uuid "6a4cd459-957c-4af8-9827-868ba35b704a")
-		)
-		(pin "2"
-			(uuid "ffe3f3d9-5505-49f8-b264-ef98f3aab199")
-		)
-		(pin "1"
-			(uuid "d94b17fc-f7c5-4f3e-b9c8-db7d9fdf0391")
-		)
-		(instances
-			(project ""
-				(path "/f3fd8d79-9d35-4c04-811e-2697a2740958"
-					(reference "U5")
 					(unit 1)
 				)
 			)
