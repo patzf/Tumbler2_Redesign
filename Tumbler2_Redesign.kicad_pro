@@ -600,8 +600,14 @@
         },
         {
           "group_by": false,
-          "label": "Product_Link",
-          "name": "Product_Link",
+          "label": "Sim.Device",
+          "name": "Sim.Device",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LSCS Part No.",
+          "name": "LSCS Part No.",
           "show": true
         }
       ],
