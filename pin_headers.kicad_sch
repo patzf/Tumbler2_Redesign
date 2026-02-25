@@ -1,0 +1,34 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "110bb2bf-3bd5-4ad2-9690-4d0e2dbdeabb")
+	(paper "A4")
+	(title_block
+		(title "Tumbler 2 Redesign")
+		(rev "1.0")
+	)
+	(lib_symbols)
+	(hierarchical_label "{SPI}"
+		(shape bidirectional)
+		(at 109.22 81.28 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5b24f8f7-03b8-40d9-a254-0bca0fad47b2")
+	)
+	(hierarchical_label "{I2C}"
+		(shape bidirectional)
+		(at 109.22 85.09 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ceac90bd-cda6-4b31-80fa-a6c3923e6b2c")
+	)
+)

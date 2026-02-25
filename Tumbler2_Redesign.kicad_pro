@@ -662,6 +662,30 @@
     [
       "f3fd8d79-9d35-4c04-811e-2697a2740958",
       "Root"
+    ],
+    [
+      "003ca151-4f76-4d52-861b-70be86047379",
+      "Power Supply"
+    ],
+    [
+      "0ddd8726-a8b2-4557-84eb-e5ca9b362851",
+      "MCU"
+    ],
+    [
+      "84b20f1f-6e00-4937-92e5-6e005c1bde3e",
+      "USB-C Connectors"
+    ],
+    [
+      "f393b342-ddad-47d4-8b4e-f21b64e15add",
+      "Motor Driver"
+    ],
+    [
+      "38423c09-d546-4c9c-b674-750983dc8f27",
+      "Sensors"
+    ],
+    [
+      "13a39940-d4ea-453b-93b0-cf8a2a454837",
+      "Pin Headers"
     ]
   ],
   "text_variables": {}
