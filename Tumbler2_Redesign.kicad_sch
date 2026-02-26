@@ -276,10 +276,10 @@
 		(uuid "e0dcad03-e0af-41c3-a5b1-759819c31e48")
 	)
 	(junction
-		(at 130.81 99.06)
+		(at 129.54 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "b80319d3-c3a5-4156-80a5-377c85c7d21d")
+		(uuid "afb1f597-9788-495d-9898-9a56c0121b1b")
 	)
 	(wire
 		(pts
@@ -293,13 +293,13 @@
 	)
 	(bus
 		(pts
-			(xy 163.83 133.35) (xy 163.83 127)
+			(xy 129.54 111.76) (xy 129.54 99.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2112845b-f3a0-42d4-b765-e3b98bb69a10")
+		(uuid "1fb8bb4a-1de4-43fc-aa76-4a796e96e34b")
 	)
 	(bus
 		(pts
@@ -333,16 +333,6 @@
 	)
 	(bus
 		(pts
-			(xy 130.81 99.06) (xy 130.81 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "611ec91a-fc49-4686-8208-3d6b7bfda802")
-	)
-	(bus
-		(pts
 			(xy 153.67 107.95) (xy 166.37 107.95)
 		)
 		(stroke
@@ -350,16 +340,6 @@
 			(type default)
 		)
 		(uuid "6bfc5a81-28bb-478c-ba52-9c7b684d193c")
-	)
-	(bus
-		(pts
-			(xy 130.81 99.06) (xy 133.35 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6c301aa1-21ec-4649-af8e-8ed5f22f2e58")
 	)
 	(wire
 		(pts
@@ -373,16 +353,6 @@
 	)
 	(bus
 		(pts
-			(xy 163.83 127) (xy 166.37 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "98a8b82d-81c1-4992-88d2-91811bf4e0d9")
-	)
-	(bus
-		(pts
 			(xy 153.67 93.98) (xy 166.37 93.98)
 		)
 		(stroke
@@ -393,17 +363,27 @@
 	)
 	(bus
 		(pts
-			(xy 130.81 133.35) (xy 163.83 133.35)
+			(xy 129.54 99.06) (xy 133.35 99.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bbc32ac4-93e6-4bc8-9662-4ff94e98e71e")
+		(uuid "af09d9a8-a175-498e-9d18-7ac163bef3f8")
 	)
 	(bus
 		(pts
-			(xy 119.38 99.06) (xy 130.81 99.06)
+			(xy 119.38 111.76) (xy 129.54 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bdf10813-4a6d-4d36-9067-2023d0d6ffad")
+	)
+	(bus
+		(pts
+			(xy 119.38 99.06) (xy 129.54 99.06)
 		)
 		(stroke
 			(width 0)
@@ -413,13 +393,13 @@
 	)
 	(bus
 		(pts
-			(xy 153.67 123.19) (xy 166.37 123.19)
+			(xy 119.38 115.57) (xy 133.35 115.57)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "fa4a4e74-b825-447c-99b8-1d702aa3f9b7")
+		(uuid "db2eab9e-3f7a-41bb-a46d-94ef38bb59ee")
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
@@ -498,7 +478,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4103f7f1-7e12-4c83-8a81-6f6491985814")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR029"
 			(at 254 158.75 0)
 			(effects
 				(font
@@ -548,7 +528,7 @@
 		(instances
 			(project "Tumbler2_Redesign"
 				(path "/f3fd8d79-9d35-4c04-811e-2697a2740958"
-					(reference "#PWR04")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -698,7 +678,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "92677e76-dd5b-4c1e-ba68-d3cfb925433d")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR028"
 			(at 227.33 158.75 0)
 			(effects
 				(font
@@ -748,7 +728,7 @@
 		(instances
 			(project "Tumbler2_Redesign"
 				(path "/f3fd8d79-9d35-4c04-811e-2697a2740958"
-					(reference "#PWR03")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -831,7 +811,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c1f0d50a-4627-4d4c-bed5-6affb5551a34")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR027"
 			(at 254 144.78 0)
 			(effects
 				(font
@@ -881,7 +861,7 @@
 		(instances
 			(project "Tumbler2_Redesign"
 				(path "/f3fd8d79-9d35-4c04-811e-2697a2740958"
-					(reference "#PWR02")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -897,7 +877,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f6317d2a-44fd-4853-b3d6-08dfc6859164")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR026"
 			(at 227.33 144.78 0)
 			(effects
 				(font
@@ -947,7 +927,7 @@
 		(instances
 			(project ""
 				(path "/f3fd8d79-9d35-4c04-811e-2697a2740958"
-					(reference "#PWR01")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -991,7 +971,7 @@
 		(instances
 			(project "Tumbler2_Redesign"
 				(path "/f3fd8d79-9d35-4c04-811e-2697a2740958"
-					(page "1")
+					(page "2")
 				)
 			)
 		)
@@ -1112,26 +1092,26 @@
 			)
 		)
 		(pin "{I2C}" bidirectional
-			(at 153.67 123.19 0)
+			(at 133.35 115.57 180)
 			(uuid "57134fc3-2ad8-43f5-9278-007db39387f5")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(instances
 			(project "Tumbler2_Redesign"
 				(path "/f3fd8d79-9d35-4c04-811e-2697a2740958"
-					(page "2")
+					(page "3")
 				)
 			)
 		)
 	)
 	(sheet
-		(at 166.37 120.65)
-		(size 19.05 10.16)
+		(at 105.41 107.95)
+		(size 13.97 22.86)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1146,7 +1126,7 @@
 		)
 		(uuid "13a39940-d4ea-453b-93b0-cf8a2a454837")
 		(property "Sheetname" "Pin Headers"
-			(at 166.37 119.9384 0)
+			(at 105.41 107.2384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1155,7 +1135,7 @@
 			)
 		)
 		(property "Sheetfile" "pin_headers.kicad_sch"
-			(at 166.37 131.3946 0)
+			(at 105.41 131.3946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1165,23 +1145,23 @@
 			)
 		)
 		(pin "{I2C}" bidirectional
-			(at 166.37 123.19 180)
+			(at 119.38 115.57 0)
 			(uuid "8ab9baad-0c2d-4bcf-b9a7-8a2d0467f80e")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(pin "{SPI}" bidirectional
-			(at 166.37 127 180)
+			(at 119.38 111.76 0)
 			(uuid "740eb0ce-d11c-435b-980b-64adb7ff7d3e")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(instances
@@ -1333,7 +1313,7 @@
 		(instances
 			(project "Tumbler2_Redesign"
 				(path "/f3fd8d79-9d35-4c04-811e-2697a2740958"
-					(page "3")
+					(page "4")
 				)
 			)
 		)
@@ -1396,7 +1376,7 @@
 		(instances
 			(project "Tumbler2_Redesign"
 				(path "/f3fd8d79-9d35-4c04-811e-2697a2740958"
-					(page "4")
+					(page "6")
 				)
 			)
 		)
