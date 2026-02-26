@@ -2,13 +2,120 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "170383f6-d1a3-4e2c-897f-f3288966fb88")
+	(uuid "9a3e8542-e1e7-44fe-9f34-b11fff3ae9af")
 	(paper "A4")
 	(title_block
 		(title "Tumbler 2 Redesign")
 		(rev "1.0")
 	)
 	(lib_symbols
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -3083,6 +3190,16 @@
 	)
 	(wire
 		(pts
+			(xy 53.34 132.08) (xy 53.34 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25d0f597-b7fd-4cfe-85bd-0df16e4fa24b")
+	)
+	(wire
+		(pts
 			(xy 186.69 49.53) (xy 182.88 49.53)
 		)
 		(stroke
@@ -3253,7 +3370,7 @@
 	)
 	(wire
 		(pts
-			(xy 266.7 129.54) (xy 266.7 134.62)
+			(xy 265.43 129.54) (xy 265.43 134.62)
 		)
 		(stroke
 			(width 0)
@@ -3733,13 +3850,33 @@
 	)
 	(wire
 		(pts
-			(xy 266.7 142.24) (xy 266.7 147.32)
+			(xy 265.43 142.24) (xy 265.43 147.32)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "a3447676-6a34-4c02-8dfd-ebd3a82003eb")
+	)
+	(wire
+		(pts
+			(xy 124.46 132.08) (xy 124.46 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a411af73-98d3-4d59-bba9-9c53cedd4232")
+	)
+	(wire
+		(pts
+			(xy 88.9 132.08) (xy 88.9 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4d2ddb6-1a87-4122-a1a8-ea8ac1f13908")
 	)
 	(wire
 		(pts
@@ -4514,7 +4651,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 266.7 138.43 0)
+		(at 265.43 138.43 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4522,7 +4659,7 @@
 		(dnp no)
 		(uuid "05914598-d113-4992-b558-b411adaedfb7")
 		(property "Reference" "C23"
-			(at 270.51 137.1599 0)
+			(at 269.24 137.1599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4531,7 +4668,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 270.51 139.6999 0)
+			(at 269.24 139.6999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4540,7 +4677,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 267.6652 142.24 0)
+			(at 266.3952 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4549,7 +4686,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 266.7 138.43 0)
+			(at 265.43 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4558,7 +4695,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 266.7 138.43 0)
+			(at 265.43 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5626,7 +5763,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 266.7 129.54 0)
+		(at 265.43 129.54 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5635,7 +5772,7 @@
 		(fields_autoplaced yes)
 		(uuid "28fada14-4915-4b45-a1e9-382d93226c6f")
 		(property "Reference" "#PWR072"
-			(at 266.7 133.35 0)
+			(at 265.43 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5644,7 +5781,7 @@
 			)
 		)
 		(property "Value" "5V"
-			(at 266.7 124.46 0)
+			(at 265.43 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5652,7 +5789,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 266.7 129.54 0)
+			(at 265.43 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5661,7 +5798,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 266.7 129.54 0)
+			(at 265.43 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5670,7 +5807,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 266.7 129.54 0)
+			(at 265.43 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6161,7 +6298,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 266.7 147.32 0)
+		(at 265.43 147.32 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6170,7 +6307,7 @@
 		(fields_autoplaced yes)
 		(uuid "348c0e63-027c-447a-a249-60ca5c9aeef0")
 		(property "Reference" "#PWR083"
-			(at 266.7 153.67 0)
+			(at 265.43 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6179,7 +6316,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 266.7 152.4 0)
+			(at 265.43 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6187,7 +6324,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 266.7 147.32 0)
+			(at 265.43 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6196,7 +6333,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 266.7 147.32 0)
+			(at 265.43 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6205,7 +6342,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 266.7 147.32 0)
+			(at 265.43 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6426,6 +6563,74 @@
 			(project "Tumbler2_Redesign"
 				(path "/f3fd8d79-9d35-4c04-811e-2697a2740958/0ddd8726-a8b2-4557-84eb-e5ca9b362851"
 					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 88.9 132.08 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4d1bb9e6-5b32-4b52-a489-8cc9d23c2866")
+		(property "Reference" "TP8"
+			(at 91.44 128.7779 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 86.36 127.5081 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 93.98 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 93.98 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 88.9 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "335ce3cb-f16c-47ec-a8fe-1aa749c7c96f")
+		)
+		(instances
+			(project "Tumbler2_Redesign"
+				(path "/f3fd8d79-9d35-4c04-811e-2697a2740958/0ddd8726-a8b2-4557-84eb-e5ca9b362851"
+					(reference "TP8")
 					(unit 1)
 				)
 			)
@@ -7555,15 +7760,15 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 237.49 48.26 0)
+		(at 250.19 48.26 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "881ab3dd-055d-4d50-ab04-e903753df188")
-		(property "Reference" "C15"
-			(at 241.3 46.9899 0)
+		(property "Reference" "C16"
+			(at 254 46.9899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7572,7 +7777,7 @@
 			)
 		)
 		(property "Value" "4.7uF"
-			(at 241.3 49.5299 0)
+			(at 254 49.5299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7581,7 +7786,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 238.4552 52.07 0)
+			(at 251.1552 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7590,7 +7795,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 237.49 48.26 0)
+			(at 250.19 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7599,7 +7804,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 237.49 48.26 0)
+			(at 250.19 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7616,7 +7821,7 @@
 		(instances
 			(project "Tumbler2_Redesign"
 				(path "/f3fd8d79-9d35-4c04-811e-2697a2740958/0ddd8726-a8b2-4557-84eb-e5ca9b362851"
-					(reference "C15")
+					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -7882,6 +8087,74 @@
 			(project "Tumbler2_Redesign"
 				(path "/f3fd8d79-9d35-4c04-811e-2697a2740958/0ddd8726-a8b2-4557-84eb-e5ca9b362851"
 					(reference "#PWR060")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 124.46 132.08 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "97926ea8-a0f0-42fb-a6bd-589c858024e9")
+		(property "Reference" "TP9"
+			(at 127 128.7779 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 121.92 127.5081 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 129.54 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 129.54 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 124.46 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ebd0d872-06ae-467f-8f1d-d8254cb39537")
+		)
+		(instances
+			(project "Tumbler2_Redesign"
+				(path "/f3fd8d79-9d35-4c04-811e-2697a2740958/0ddd8726-a8b2-4557-84eb-e5ca9b362851"
+					(reference "TP9")
 					(unit 1)
 				)
 			)
@@ -8828,6 +9101,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 53.34 132.08 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c184d92c-6aee-409b-a50f-f42d8dec0657")
+		(property "Reference" "TP7"
+			(at 55.88 128.7779 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 50.8 127.5081 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 58.42 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 58.42 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 53.34 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9162a1e1-0f00-4799-8e00-335d792f9e42")
+		)
+		(instances
+			(project "Tumbler2_Redesign"
+				(path "/f3fd8d79-9d35-4c04-811e-2697a2740958/0ddd8726-a8b2-4557-84eb-e5ca9b362851"
+					(reference "TP7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 53.34 52.07 0)
 		(mirror y)
@@ -9296,7 +9637,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 250.19 48.26 0)
+		(at 237.49 48.26 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9304,8 +9645,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d8b424c8-ebe0-4059-9c8e-9cb49406aa03")
-		(property "Reference" "C16"
-			(at 254 46.9899 0)
+		(property "Reference" "C15"
+			(at 241.3 46.9899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9314,7 +9655,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 254 49.5299 0)
+			(at 241.3 49.5299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9323,7 +9664,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 251.1552 52.07 0)
+			(at 238.4552 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9332,7 +9673,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 250.19 48.26 0)
+			(at 237.49 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9341,7 +9682,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 250.19 48.26 0)
+			(at 237.49 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9358,7 +9699,7 @@
 		(instances
 			(project "Tumbler2_Redesign"
 				(path "/f3fd8d79-9d35-4c04-811e-2697a2740958/0ddd8726-a8b2-4557-84eb-e5ca9b362851"
-					(reference "C16")
+					(reference "C15")
 					(unit 1)
 				)
 			)
