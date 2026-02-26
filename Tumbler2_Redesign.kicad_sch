@@ -321,6 +321,16 @@
 		)
 		(uuid "31d9470c-a2c4-4d88-93c5-27c219458d9d")
 	)
+	(bus
+		(pts
+			(xy 119.38 119.38) (xy 133.35 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3260bc13-cbe0-4dd4-b6d7-52d15afff8a6")
+	)
 	(wire
 		(pts
 			(xy 119.38 91.44) (xy 133.35 91.44)
@@ -479,7 +489,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4103f7f1-7e12-4c83-8a81-6f6491985814")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR04"
 			(at 265.43 157.48 0)
 			(effects
 				(font
@@ -529,7 +539,7 @@
 		(instances
 			(project "Tumbler2_Redesign"
 				(path "/f3fd8d79-9d35-4c04-811e-2697a2740958"
-					(reference "#PWR029")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -681,7 +691,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "92677e76-dd5b-4c1e-ba68-d3cfb925433d")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR03"
 			(at 247.65 157.48 0)
 			(effects
 				(font
@@ -731,7 +741,7 @@
 		(instances
 			(project "Tumbler2_Redesign"
 				(path "/f3fd8d79-9d35-4c04-811e-2697a2740958"
-					(reference "#PWR028")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -815,7 +825,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c1f0d50a-4627-4d4c-bed5-6affb5551a34")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR02"
 			(at 265.43 143.51 0)
 			(effects
 				(font
@@ -865,7 +875,7 @@
 		(instances
 			(project "Tumbler2_Redesign"
 				(path "/f3fd8d79-9d35-4c04-811e-2697a2740958"
-					(reference "#PWR027")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -881,7 +891,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f6317d2a-44fd-4853-b3d6-08dfc6859164")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR01"
 			(at 247.65 143.51 0)
 			(effects
 				(font
@@ -931,7 +941,7 @@
 		(instances
 			(project ""
 				(path "/f3fd8d79-9d35-4c04-811e-2697a2740958"
-					(reference "#PWR026")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -1105,6 +1115,16 @@
 				(justify left)
 			)
 		)
+		(pin "{UART}" bidirectional
+			(at 133.35 119.38 180)
+			(uuid "2f634721-ae9a-403a-847b-5167ba01d300")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "Tumbler2_Redesign"
 				(path "/f3fd8d79-9d35-4c04-811e-2697a2740958"
@@ -1161,6 +1181,16 @@
 		(pin "{SPI}" bidirectional
 			(at 119.38 111.76 0)
 			(uuid "740eb0ce-d11c-435b-980b-64adb7ff7d3e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "{UART}" bidirectional
+			(at 119.38 119.38 0)
+			(uuid "80cdf33e-e2f0-4f7a-b78d-1d73c599fe96")
 			(effects
 				(font
 					(size 1.27 1.27)
