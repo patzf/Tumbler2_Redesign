@@ -2,13 +2,357 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "ae6a715f-a35f-4953-b6a3-9f3924de9d14")
+	(uuid "77dd2d0a-0afa-4c41-aeaf-4016ca7a0e6b")
 	(paper "A4")
 	(title_block
 		(title "Tumbler 2 Redesign")
 		(rev "1.0")
 	)
-	(lib_symbols)
+	(lib_symbols
+		(symbol "Tumbler2:503398-1892"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at -12.7217 16.536 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "503398-1892"
+				(at -12.704 -16.5156 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "Tumbler2:MOLEX_503398-1892"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/5033981892?display=pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Micro SD card (TF card) Connector and Ejector Push-Push Surface Mount"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LSCS Part Nr." "C428492"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/503398-1892/Molex/view-part/?ref=snap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "503398-1892_0_0"
+				(rectangle
+					(start -10.16 16.51)
+					(end 10.16 -16.51)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin power_in line
+					(at 12.7 13.97 180)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 8.89 180)
+					(length 2.54)
+					(name "CMD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive clock
+					(at 12.7 6.35 180)
+					(length 2.54)
+					(name "CLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 3.81 180)
+					(length 2.54)
+					(name "DAT0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 1.27 180)
+					(length 2.54)
+					(name "DAT1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 -1.27 180)
+					(length 2.54)
+					(name "DAT2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 -3.81 180)
+					(length 2.54)
+					(name "CD/DAT3^2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 -6.35 180)
+					(length 2.54)
+					(name "DETECT_SWITCH"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 -11.43 180)
+					(length 2.54)
+					(name "SHIELD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 -11.43 180)
+					(length 2.54)
+					(hide yes)
+					(name "SHIELD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 -11.43 180)
+					(length 2.54)
+					(hide yes)
+					(name "SHIELD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 -11.43 180)
+					(length 2.54)
+					(hide yes)
+					(name "SHIELD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 12.7 -13.97 180)
+					(length 2.54)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 12.7 -13.97 180)
+					(length 2.54)
+					(hide yes)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
 	(hierarchical_label "{UART}"
 		(shape bidirectional)
 		(at 109.22 88.9 180)
@@ -41,5 +385,129 @@
 			(justify right)
 		)
 		(uuid "ceac90bd-cda6-4b31-80fa-a6c3923e6b2c")
+	)
+	(symbol
+		(lib_id "Tumbler2:503398-1892")
+		(at 109.22 119.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "52a64649-f3ab-4345-954e-27047f967798")
+		(property "Reference" "J6"
+			(at 109.22 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "503398-1892"
+			(at 109.22 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Tumbler2:MOLEX_503398-1892"
+			(at 109.22 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/5033981892?display=pdf"
+			(at 109.22 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Micro SD card (TF card) Connector and Ejector Push-Push Surface Mount"
+			(at 109.22 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LSCS Part Nr." "C428492"
+			(at 109.22 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/503398-1892/Molex/view-part/?ref=snap"
+			(at 109.22 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "4a00d294-9e4a-4b42-966f-c20272b8743d")
+		)
+		(pin "3"
+			(uuid "17b21669-4dd5-415b-823d-0b54148b278e")
+		)
+		(pin "5"
+			(uuid "55a4efaa-a7ee-4c20-822c-d96c4f2c3c65")
+		)
+		(pin "7"
+			(uuid "0800ea3a-275d-4ca8-a2b7-c221389aefe6")
+		)
+		(pin "8"
+			(uuid "cffbe2e0-65e4-4659-b715-887fdfa886c7")
+		)
+		(pin "P2"
+			(uuid "d28e3cfd-8cd6-4ea8-a92c-d1be99e3e71e")
+		)
+		(pin "P4"
+			(uuid "3e05eac8-c1f8-473a-9e91-51b5f807ace1")
+		)
+		(pin "9"
+			(uuid "a3c4b55d-83a2-45ca-a047-7695ca8e5bd3")
+		)
+		(pin "P3"
+			(uuid "8f83c983-ddc4-4cca-b52e-d4a7f4d4ffc1")
+		)
+		(pin "10"
+			(uuid "74746212-a155-4f7a-b73a-adc1af2ad445")
+		)
+		(pin "P1"
+			(uuid "b74ef3a4-80c1-49b8-b987-6bfdbcfa6acb")
+		)
+		(pin "6"
+			(uuid "7b2d2cda-1f8f-4784-8a48-b5b7a47879c1")
+		)
+		(pin "1"
+			(uuid "204bb33c-7ed8-46ef-9a05-7b9821b0f29e")
+		)
+		(pin "2"
+			(uuid "627b6022-58f1-4e81-aed7-5b2da157f7ad")
+		)
+		(instances
+			(project ""
+				(path "/f3fd8d79-9d35-4c04-811e-2697a2740958/13a39940-d4ea-453b-93b0-cf8a2a454837"
+					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
 	)
 )
