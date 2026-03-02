@@ -440,15 +440,6 @@
 				(hide yes)
 			)
 		)
-		(property "LSCS Part Nr." "C428492"
-			(at 109.22 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/503398-1892/Molex/view-part/?ref=snap"
 			(at 109.22 119.38 0)
 			(effects
@@ -456,6 +447,15 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C428492"
+			(at 109.22 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)

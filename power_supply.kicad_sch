@@ -4684,7 +4684,7 @@
 				(hide yes)
 			)
 		)
-		(property "LSCS Part No." "C2869734"
+		(property "LCSC Part" "C2869734"
 			(at 215.9 71.12 0)
 			(effects
 				(font

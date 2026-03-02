@@ -4340,7 +4340,7 @@
 				(hide yes)
 			)
 		)
-		(property "LSCS Part No." "C5409177"
+		(property "LCSC Part" "C5409177"
 			(at 189.23 110.49 0)
 			(effects
 				(font
@@ -4800,7 +4800,7 @@
 				(hide yes)
 			)
 		)
-		(property "LSCS Part No." "C2869734"
+		(property "LCSC Part" "C2869734"
 			(at 91.44 52.07 0)
 			(effects
 				(font
@@ -5020,7 +5020,7 @@
 				(hide yes)
 			)
 		)
-		(property "LSCS Part No." "C5409177"
+		(property "LCSC Part" "C5409177"
 			(at 77.47 110.49 0)
 			(effects
 				(font
@@ -7440,7 +7440,7 @@
 				(hide yes)
 			)
 		)
-		(property "LSCS Part No." "C2869734"
+		(property "LCSC Part" "C2869734"
 			(at 204.47 52.07 0)
 			(effects
 				(font

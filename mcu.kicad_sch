@@ -4984,7 +4984,7 @@
 				(hide yes)
 			)
 		)
-		(property "LSCS Part No." "C2913202"
+		(property "LCSC Part" "C2913202"
 			(at 91.44 69.85 0)
 			(effects
 				(font
@@ -10105,7 +10105,7 @@
 				(hide yes)
 			)
 		)
-		(property "LSCS Part No." "C964632"
+		(property "LCSC Part" "C964632"
 			(at 200.66 69.85 0)
 			(effects
 				(font
