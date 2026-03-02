@@ -2,7 +2,7 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "b62ed3b5-8e46-4499-aa54-b1b4e3efa222")
+	(uuid "273c29f8-ba36-44f7-baf4-90ca0a26ff84")
 	(paper "A4")
 	(title_block
 		(title "Tumbler 2 Redesign")
@@ -3840,7 +3840,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 257.5052 100.33 0)
 			(effects
 				(font
@@ -3910,7 +3910,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 114.6048 57.15 0)
 			(effects
 				(font
@@ -4112,7 +4112,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 175.5648 143.51 0)
 			(effects
 				(font
@@ -4635,7 +4635,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 227.6348 57.15 0)
 			(effects
 				(font
@@ -4705,7 +4705,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 244.8052 100.33 0)
 			(effects
 				(font
@@ -5315,7 +5315,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 175.5648 59.69 0)
 			(effects
 				(font
@@ -5718,7 +5718,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 63.8048 143.51 0)
 			(effects
 				(font
@@ -6185,7 +6185,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 63.8048 59.69 0)
 			(effects
 				(font
@@ -6728,7 +6728,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 145.7452 100.33 0)
 			(effects
 				(font
@@ -6798,7 +6798,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 133.0452 100.33 0)
 			(effects
 				(font

@@ -609,6 +609,12 @@
           "label": "LSCS Part No.",
           "name": "LSCS Part No.",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "LSCS Part Nr.",
+          "name": "LSCS Part Nr.",
+          "show": false
         }
       ],
       "filter_string": "",

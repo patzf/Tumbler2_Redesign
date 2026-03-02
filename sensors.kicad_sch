@@ -2,7 +2,7 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "ab0590cf-ae78-4858-88db-92f92967a8df")
+	(uuid "828cd174-9117-47b7-87ca-c8ad9de2c5fc")
 	(paper "A4")
 	(title_block
 		(title "Tumbler 2 Redesign")
@@ -1549,7 +1549,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
 			(at 209.55 92.71 0)
 			(effects
 				(font
@@ -1992,7 +1992,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 176.2252 110.49 0)
 			(effects
 				(font
@@ -2128,7 +2128,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 105.7148 96.52 0)
 			(effects
 				(font
@@ -2597,7 +2597,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 91.7448 96.52 0)
 			(effects
 				(font
