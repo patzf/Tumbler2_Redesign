@@ -241,7 +241,7 @@
 		)
 		(uuid "5f36e912-bfc0-47f9-8ed1-cae5f8095ef4")
 	)
-	(text "TODO:\nTB6612FNG mit DRV8874 oder DRV8411APWPR ersetzen\n"
+	(text "TODO:\nReplace MPU-6050 with ST LSM6DS3TR-C!\nReplace TB6612FNG with DRV8847SPWR or DRV8411APWPR\n"
 		(exclude_from_sim no)
 		(at 21.082 33.782 0)
 		(effects
