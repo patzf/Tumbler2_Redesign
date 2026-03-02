@@ -3318,6 +3318,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C7519"
+			(at 110.49 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "bab5b230-7723-4b81-a707-edc39546608c")
 		)
@@ -7088,6 +7097,15 @@
 			)
 		)
 		(property "Description" "Very low capacitance ESD protection diode, 2 data-line, SOT-23-6"
+			(at 222.25 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C7519"
 			(at 222.25 110.49 0)
 			(effects
 				(font

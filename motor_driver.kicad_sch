@@ -2409,6 +2409,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C141517"
+			(at 147.32 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "24"
 			(uuid "43f43592-136c-40a7-aab7-6cd7fd2b2471")
 		)

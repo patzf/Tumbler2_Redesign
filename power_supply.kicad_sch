@@ -5235,6 +5235,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C2071056"
+			(at 109.22 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "6"
 			(uuid "aee186aa-15fb-4f13-9100-583d683c55c4")
 		)
@@ -6311,6 +6320,15 @@
 			)
 		)
 		(property "Description" "2A, 1.1MHz Buck DC/DC Converter, fixed 3.3V output voltage, TSOT-23-6"
+			(at 93.98 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C780769"
 			(at 93.98 116.84 0)
 			(effects
 				(font

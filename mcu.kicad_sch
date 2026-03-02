@@ -4772,6 +4772,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C965555"
+			(at 167.64 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "07b35233-5b1c-4a81-a12b-850da6886cd3")
 		)
@@ -5193,6 +5202,15 @@
 			)
 		)
 		(property "Sim.Pins" "1=B 2=E 3=C"
+			(at 240.03 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C39828"
 			(at 240.03 97.79 0)
 			(effects
 				(font
@@ -6712,6 +6730,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C39828"
+			(at 240.03 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b1d768b8-1dbd-4f8b-a0ae-1838420c962f")
 		)
@@ -6842,6 +6869,15 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
+			(at 152.4 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C965555"
 			(at 152.4 114.3 0)
 			(effects
 				(font
@@ -7670,6 +7706,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C965555"
+			(at 198.12 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "e19ea7b9-782c-4c06-a096-407e9d60824f")
 		)
@@ -8470,6 +8515,15 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
+			(at 182.88 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C965555"
 			(at 182.88 114.3 0)
 			(effects
 				(font
