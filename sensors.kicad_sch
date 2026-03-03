@@ -1334,6 +1334,17 @@
 	(bus_alias "MOT0"
 		(members "IN1" "IN2" "PWM")
 	)
+	(text "I2C Address:\nAD0 tied to GND: 0x68\nAD0 tied to VDD: 0x69"
+		(exclude_from_sim no)
+		(at 95.25 109.22 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5a4abf46-fd4e-48a9-98ee-459868d99e18")
+	)
 	(junction
 		(at 165.1 90.17)
 		(diameter 0)
