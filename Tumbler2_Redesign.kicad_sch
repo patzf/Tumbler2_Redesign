@@ -218,9 +218,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(bus_alias "SPI"
-		(members "MOSI" "MISO" "SCLK" "~{CS}")
-	)
 	(bus_alias "UART"
 		(members "RXD" "TXD" "RTS" "DTR")
 	)
@@ -253,12 +250,6 @@
 		)
 		(uuid "e0dcad03-e0af-41c3-a5b1-759819c31e48")
 	)
-	(junction
-		(at 129.54 99.06)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "afb1f597-9788-495d-9898-9a56c0121b1b")
-	)
 	(wire
 		(pts
 			(xy 119.38 87.63) (xy 133.35 87.63)
@@ -268,16 +259,6 @@
 			(type default)
 		)
 		(uuid "146c2213-d6a0-4d16-8023-6df2dfee4b0a")
-	)
-	(bus
-		(pts
-			(xy 129.54 111.76) (xy 129.54 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1fb8bb4a-1de4-43fc-aa76-4a796e96e34b")
 	)
 	(bus
 		(pts
@@ -301,7 +282,7 @@
 	)
 	(bus
 		(pts
-			(xy 119.38 119.38) (xy 133.35 119.38)
+			(xy 119.38 115.57) (xy 133.35 115.57)
 		)
 		(stroke
 			(width 0)
@@ -351,37 +332,7 @@
 	)
 	(bus
 		(pts
-			(xy 129.54 99.06) (xy 133.35 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "af09d9a8-a175-498e-9d18-7ac163bef3f8")
-	)
-	(bus
-		(pts
-			(xy 119.38 111.76) (xy 129.54 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bdf10813-4a6d-4d36-9067-2023d0d6ffad")
-	)
-	(bus
-		(pts
-			(xy 119.38 99.06) (xy 129.54 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c74031d6-6a6d-4a16-a339-eb7c5a9b0f48")
-	)
-	(bus
-		(pts
-			(xy 119.38 115.57) (xy 133.35 115.57)
+			(xy 119.38 111.76) (xy 133.35 111.76)
 		)
 		(stroke
 			(width 0)
@@ -1023,16 +974,6 @@
 				(justify left)
 			)
 		)
-		(pin "{SPI}" bidirectional
-			(at 133.35 99.06 180)
-			(uuid "3230e898-b173-4acb-813d-c7aab81a6e4c")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "INT" input
 			(at 133.35 95.25 180)
 			(uuid "cfdc6e23-ab5b-4cea-bd85-ef29a0a5da51")
@@ -1084,7 +1025,7 @@
 			)
 		)
 		(pin "{I2C}" bidirectional
-			(at 133.35 115.57 180)
+			(at 133.35 111.76 180)
 			(uuid "57134fc3-2ad8-43f5-9278-007db39387f5")
 			(effects
 				(font
@@ -1094,7 +1035,7 @@
 			)
 		)
 		(pin "{UART}" bidirectional
-			(at 133.35 119.38 180)
+			(at 133.35 115.57 180)
 			(uuid "2f634721-ae9a-403a-847b-5167ba01d300")
 			(effects
 				(font
@@ -1147,7 +1088,7 @@
 			)
 		)
 		(pin "{I2C}" bidirectional
-			(at 119.38 115.57 0)
+			(at 119.38 111.76 0)
 			(uuid "8ab9baad-0c2d-4bcf-b9a7-8a2d0467f80e")
 			(effects
 				(font
@@ -1156,18 +1097,8 @@
 				(justify right)
 			)
 		)
-		(pin "{SPI}" bidirectional
-			(at 119.38 111.76 0)
-			(uuid "740eb0ce-d11c-435b-980b-64adb7ff7d3e")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "{UART}" bidirectional
-			(at 119.38 119.38 0)
+			(at 119.38 115.57 0)
 			(uuid "80cdf33e-e2f0-4f7a-b78d-1d73c599fe96")
 			(effects
 				(font
@@ -1242,16 +1173,6 @@
 		(pin "TRIG" input
 			(at 119.38 91.44 0)
 			(uuid "8a2d1684-556c-4c93-9c0b-059395e4e61a")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "{SPI}" bidirectional
-			(at 119.38 99.06 0)
-			(uuid "3ea0c7a3-1ff9-4579-8275-4a4b5ef4a7a2")
 			(effects
 				(font
 					(size 1.27 1.27)

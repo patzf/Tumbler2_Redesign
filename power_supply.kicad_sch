@@ -1673,9 +1673,9 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "LDO after 3.3V buck converter not really worth it, as\nVCC and VCCA are directly connected inside WROOM 1\nmodule. Eather continue using ESP32 ADC or connect high\nprecition ADC via pin header to GPIOs or connect with bus"
+	(text "LDO after 3.3V buck converter not worth it.\nVCC and VCCA are directly connected inside\nWROOM 1 module. Eather use ESP32 ADC and\ndon't mind, or connect high precition ADC via\npin header to GPIOs or connect with bus"
 		(exclude_from_sim no)
-		(at 199.898 106.934 0)
+		(at 202.184 107.442 0)
 		(effects
 			(font
 				(size 1.27 1.27)
