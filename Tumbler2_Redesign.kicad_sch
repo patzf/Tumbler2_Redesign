@@ -230,28 +230,6 @@
 	(bus_alias "USB2"
 		(members "DP" "DM")
 	)
-	(text "Battery charging IC options:\nINJOINIC IP5306\nTI BQ25887RGER"
-		(exclude_from_sim no)
-		(at 20.828 24.892 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "5f36e912-bfc0-47f9-8ed1-cae5f8095ef4")
-	)
-	(text "TODO:\nReplace MPU-6050 with ST LSM6DS3TR-C!\nReplace TB6612FNG with DRV8847SPWR or DRV8411APWPR\n"
-		(exclude_from_sim no)
-		(at 21.082 33.782 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "9a5c1439-cc6a-497c-bd62-28681bdffd56")
-	)
 	(text "https://docs.espressif.com/projects/esp-idf/en/stable/esp32s3/api-reference/peripherals/gpio.html"
 		(exclude_from_sim no)
 		(at 43.688 189.484 0)
