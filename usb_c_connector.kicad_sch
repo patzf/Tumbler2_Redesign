@@ -4322,7 +4322,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Tumbler2:AMPHENOL_10155435-00011LF"
+		(property "Footprint" "Tumbler2:KINGHELM_KH-TYPE-C-16P"
 			(at 193.04 110.49 0)
 			(effects
 				(font
@@ -4349,7 +4349,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C5409177"
+		(property "LCSC Part" "C709357"
 			(at 189.23 110.49 0)
 			(effects
 				(font
@@ -5002,7 +5002,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Tumbler2:AMPHENOL_10155435-00011LF"
+		(property "Footprint" "Tumbler2:KINGHELM_KH-TYPE-C-16P"
 			(at 81.28 110.49 0)
 			(effects
 				(font
@@ -5029,7 +5029,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C5409177"
+		(property "LCSC Part" "C709357"
 			(at 77.47 110.49 0)
 			(effects
 				(font
