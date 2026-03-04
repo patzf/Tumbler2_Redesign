@@ -676,12 +676,8 @@
       "USB-C Connectors"
     ],
     [
-      "38423c09-d546-4c9c-b674-750983dc8f27",
-      "Sensors"
-    ],
-    [
-      "f393b342-ddad-47d4-8b4e-f21b64e15add",
-      "Motor Driver"
+      "f8585a58-8128-4c19-a894-5097be4fe7b3",
+      "Peripherals"
     ]
   ],
   "text_variables": {}
