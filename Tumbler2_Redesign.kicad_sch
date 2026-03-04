@@ -250,12 +250,6 @@
 		)
 		(uuid "e0dcad03-e0af-41c3-a5b1-759819c31e48")
 	)
-	(junction
-		(at 127 99.06)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6fff52ad-1755-4256-a810-4f8abbd7bad7")
-	)
 	(wire
 		(pts
 			(xy 119.38 87.63) (xy 133.35 87.63)
@@ -265,16 +259,6 @@
 			(type default)
 		)
 		(uuid "146c2213-d6a0-4d16-8023-6df2dfee4b0a")
-	)
-	(bus
-		(pts
-			(xy 119.38 115.57) (xy 133.35 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2915a18a-54a8-46b4-bacd-9ebc51049632")
 	)
 	(bus
 		(pts
@@ -316,16 +300,6 @@
 		)
 		(uuid "6bfc5a81-28bb-478c-ba52-9c7b684d193c")
 	)
-	(bus
-		(pts
-			(xy 127 99.06) (xy 133.35 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "75897eb7-3f3b-43ea-b207-b0ffd44af2a6")
-	)
 	(wire
 		(pts
 			(xy 119.38 95.25) (xy 133.35 95.25)
@@ -358,33 +332,13 @@
 	)
 	(bus
 		(pts
-			(xy 119.38 111.76) (xy 127 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d4bb02e5-a716-4998-af85-7f6a9ab8aaaf")
-	)
-	(bus
-		(pts
-			(xy 119.38 99.06) (xy 127 99.06)
+			(xy 119.38 99.06) (xy 133.35 99.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "dade93df-fc53-4701-8c56-270591efc046")
-	)
-	(bus
-		(pts
-			(xy 127 111.76) (xy 127 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "df2a0daf-c711-4d9c-a03d-160b4d06b7ff")
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
@@ -1090,83 +1044,10 @@
 				(justify left)
 			)
 		)
-		(pin "{UART}" bidirectional
-			(at 133.35 115.57 180)
-			(uuid "f2a80f07-4816-4df5-9b6f-4e28ae1bee4b")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(instances
 			(project "Tumbler2_Redesign"
 				(path "/f3fd8d79-9d35-4c04-811e-2697a2740958"
 					(page "3")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 105.41 107.95)
-		(size 13.97 11.43)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "13a39940-d4ea-453b-93b0-cf8a2a454837")
-		(property "Sheetname" "Pin Headers"
-			(at 105.41 107.2384 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "pin_headers.kicad_sch"
-			(at 105.41 119.9646 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "{I2C}" bidirectional
-			(at 119.38 111.76 0)
-			(uuid "8ab9baad-0c2d-4bcf-b9a7-8a2d0467f80e")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "{UART}" bidirectional
-			(at 119.38 115.57 0)
-			(uuid "80cdf33e-e2f0-4f7a-b78d-1d73c599fe96")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(instances
-			(project "Tumbler2_Redesign"
-				(path "/f3fd8d79-9d35-4c04-811e-2697a2740958"
-					(page "7")
 				)
 			)
 		)
