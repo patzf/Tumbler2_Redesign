@@ -330,6 +330,16 @@
 		)
 		(uuid "ab674353-03cb-48ca-8a0c-83e7cf228a88")
 	)
+	(wire
+		(pts
+			(xy 153.67 115.57) (xy 166.37 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba7a2ca9-3dd4-454c-aa78-9265b7679506")
+	)
 	(bus
 		(pts
 			(xy 119.38 111.76) (xy 133.35 111.76)
@@ -1044,6 +1054,16 @@
 				(justify left)
 			)
 		)
+		(pin "STBY" output
+			(at 153.67 115.57 0)
+			(uuid "d4953c65-6aaa-4614-bbc6-04daad29a32a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "Tumbler2_Redesign"
 				(path "/f3fd8d79-9d35-4c04-811e-2697a2740958"
@@ -1053,8 +1073,8 @@
 		)
 	)
 	(sheet
-		(at 105.41 107.95)
-		(size 13.97 22.86)
+		(at 105.41 109.22)
+		(size 13.97 21.59)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1069,7 +1089,7 @@
 		)
 		(uuid "13a39940-d4ea-453b-93b0-cf8a2a454837")
 		(property "Sheetname" "Pin Headers"
-			(at 105.41 107.2384 0)
+			(at 105.41 108.5084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1117,7 +1137,7 @@
 	)
 	(sheet
 		(at 105.41 83.82)
-		(size 13.97 17.78)
+		(size 13.97 19.05)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1141,7 +1161,7 @@
 			)
 		)
 		(property "Sheetfile" "sensors.kicad_sch"
-			(at 105.41 102.1846 0)
+			(at 105.41 103.4546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1173,6 +1193,16 @@
 		(pin "TRIG" input
 			(at 119.38 91.44 0)
 			(uuid "8a2d1684-556c-4c93-9c0b-059395e4e61a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "{I2C}" bidirectional
+			(at 119.38 99.06 0)
+			(uuid "a0bab1cd-4fd9-4915-97aa-b9378ed88786")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1253,7 +1283,7 @@
 	)
 	(sheet
 		(at 166.37 104.14)
-		(size 19.05 11.43)
+		(size 19.05 15.24)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1277,7 +1307,7 @@
 			)
 		)
 		(property "Sheetfile" "motor_driver.kicad_sch"
-			(at 166.37 116.1546 0)
+			(at 166.37 119.9646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1299,6 +1329,16 @@
 		(pin "{MOT1}" input
 			(at 166.37 111.76 180)
 			(uuid "57c9082c-5ca0-44ff-a7f2-47ffcdc6b4ab")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "STBY" input
+			(at 166.37 115.57 180)
+			(uuid "53d6cc4b-4e86-498c-9826-42e75e5bae4e")
 			(effects
 				(font
 					(size 1.27 1.27)
