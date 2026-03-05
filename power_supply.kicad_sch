@@ -4839,7 +4839,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Fuse:Fuseholder_Clip-5x20mm_Littelfuse_100_Inline_P20.50x4.60mm_D1.30mm_Horizontal"
 			(at 96.52 70.358 90)
 			(effects
 				(font
@@ -4848,7 +4848,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C142797.pdf"
 			(at 96.52 68.58 0)
 			(effects
 				(font
@@ -4866,7 +4866,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C142706"
+		(property "LCSC Part" "C142797"
 			(at 96.52 68.58 90)
 			(effects
 				(font
@@ -5929,6 +5929,83 @@
 			(project "Tumbler2_Redesign"
 				(path "/f3fd8d79-9d35-4c04-811e-2697a2740958/003ca151-4f76-4d52-861b-70be86047379"
 					(reference "#PWR033")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Fuse")
+		(at 96.52 52.07 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "b6a0eda4-1d8a-4b66-b44a-b5e7c3706f30")
+		(property "Reference" "F2"
+			(at 96.52 45.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Fuse"
+			(at 96.52 48.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 96.52 53.848 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 96.52 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fuse"
+			(at 96.52 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C142706"
+			(at 96.52 52.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "cebda99e-4428-47ce-8daf-7febdb18045b")
+		)
+		(pin "1"
+			(uuid "52747f59-871c-4f03-bb38-ed7fc54dc6a6")
+		)
+		(instances
+			(project ""
+				(path "/f3fd8d79-9d35-4c04-811e-2697a2740958/003ca151-4f76-4d52-861b-70be86047379"
+					(reference "F2")
 					(unit 1)
 				)
 			)
