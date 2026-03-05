@@ -227,29 +227,6 @@
 	(bus_alias "USB2"
 		(members "DP" "DM")
 	)
-	(text "https://docs.espressif.com/projects/esp-idf/en/stable/esp32s3/api-reference/peripherals/gpio.html"
-		(exclude_from_sim no)
-		(at 43.688 189.484 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-			(href "https://docs.espressif.com/projects/esp-idf/en/stable/esp32s3/api-reference/peripherals/gpio.html")
-		)
-		(uuid "a1f0f7f3-2352-4350-b153-ec1810481a59")
-	)
-	(text "Design References:\nESP32 S3 Pin Functions: "
-		(exclude_from_sim no)
-		(at 19.05 188.468 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "e0dcad03-e0af-41c3-a5b1-759819c31e48")
-	)
 	(bus
 		(pts
 			(xy 153.67 111.76) (xy 166.37 111.76)
