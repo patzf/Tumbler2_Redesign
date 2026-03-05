@@ -954,26 +954,6 @@
 				(hide yes)
 			)
 		)
-		(pin "{MOT0}" output
-			(at 153.67 107.95 0)
-			(uuid "ecb4c685-a242-4d92-adad-ffc3d1dbbdee")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "{MOT1}" output
-			(at 153.67 111.76 0)
-			(uuid "e4f69d99-4f16-4cc4-923a-5e4b74a532df")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "STBY" output
 			(at 153.67 115.57 0)
 			(uuid "d4953c65-6aaa-4614-bbc6-04daad29a32a")
@@ -1037,6 +1017,26 @@
 		(pin "{I2C}" bidirectional
 			(at 153.67 101.6 0)
 			(uuid "c587da6a-bd92-48d8-8140-bb97cf2dfcb7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "{MOT1}" bidirectional
+			(at 153.67 107.95 0)
+			(uuid "15a7f226-32c9-4bb1-b8c9-3b27c057022c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "{MOT2}" bidirectional
+			(at 153.67 111.76 0)
+			(uuid "e2fffe30-488f-410c-8cf1-62068955a929")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1200,9 +1200,9 @@
 				(justify left)
 			)
 		)
-		(pin "{MOT0}" input
+		(pin "{MOT1}" input
 			(at 166.37 107.95 180)
-			(uuid "c92d94a2-f6ec-4fe1-949e-b7a60382093f")
+			(uuid "6f8be8c5-bb5a-4dbb-a15e-335e95409eb5")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1210,9 +1210,9 @@
 				(justify left)
 			)
 		)
-		(pin "{MOT1}" input
+		(pin "{MOT2}" input
 			(at 166.37 111.76 180)
-			(uuid "461e2dd6-529d-4956-8f4a-f3c4f1462876")
+			(uuid "43ec37c2-16b6-429e-a0f6-e8542adccdb5")
 			(effects
 				(font
 					(size 1.27 1.27)
