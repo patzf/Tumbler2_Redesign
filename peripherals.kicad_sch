@@ -6466,7 +6466,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bb126abf-ac5b-45ac-8b2e-a06208438a75")
-		(property "Reference" "TP12"
+		(property "Reference" "TP11"
 			(at 158.75 39.8779 0)
 			(effects
 				(font
@@ -6518,7 +6518,7 @@
 		(instances
 			(project "Tumbler2_Redesign"
 				(path "/f3fd8d79-9d35-4c04-811e-2697a2740958/f8585a58-8128-4c19-a894-5097be4fe7b3"
-					(reference "TP12")
+					(reference "TP11")
 					(unit 1)
 				)
 			)

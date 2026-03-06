@@ -4001,7 +4001,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4281818f-83c8-4216-bd23-cd00b65eac73")
-		(property "Reference" "TP10"
+		(property "Reference" "TP9"
 			(at 74.93 57.9119 0)
 			(effects
 				(font
@@ -4053,7 +4053,7 @@
 		(instances
 			(project "Tumbler2_Redesign"
 				(path "/f3fd8d79-9d35-4c04-811e-2697a2740958/84b20f1f-6e00-4937-92e5-6e005c1bde3e"
-					(reference "TP10")
+					(reference "TP9")
 					(unit 1)
 				)
 			)
@@ -5270,7 +5270,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8693c4d6-4739-4b07-92a6-0aaa399fbc93")
-		(property "Reference" "TP11"
+		(property "Reference" "TP10"
 			(at 187.96 57.9119 0)
 			(effects
 				(font
@@ -5322,7 +5322,7 @@
 		(instances
 			(project "Tumbler2_Redesign"
 				(path "/f3fd8d79-9d35-4c04-811e-2697a2740958/84b20f1f-6e00-4937-92e5-6e005c1bde3e"
-					(reference "TP11")
+					(reference "TP10")
 					(unit 1)
 				)
 			)
