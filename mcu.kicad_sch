@@ -5755,6 +5755,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C96446"
+			(at 265.43 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "37dac210-446d-41ef-b971-37805843ed49")
 		)
@@ -5948,7 +5957,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 46.228 87.63 90)
 			(effects
 				(font
@@ -5967,6 +5976,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 44.45 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C99782"
 			(at 44.45 87.63 0)
 			(effects
 				(font
@@ -6085,7 +6103,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 104.902 124.46 90)
 			(effects
 				(font
@@ -6104,6 +6122,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 106.68 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C98220"
 			(at 106.68 124.46 0)
 			(effects
 				(font
@@ -6521,7 +6548,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 251.1552 52.07 0)
 			(effects
 				(font
@@ -6540,6 +6567,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 250.19 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C14663"
 			(at 250.19 48.26 0)
 			(effects
 				(font
@@ -6591,7 +6627,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 137.922 113.03 90)
 			(effects
 				(font
@@ -6610,6 +6646,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 139.7 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C98220"
 			(at 139.7 113.03 0)
 			(effects
 				(font
@@ -6793,7 +6838,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 171.958 54.61 90)
 			(effects
 				(font
@@ -6812,6 +6857,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 170.18 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C137715"
 			(at 170.18 54.61 0)
 			(effects
 				(font
@@ -6862,7 +6916,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 240.9952 142.24 0)
 			(effects
 				(font
@@ -6881,6 +6935,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 240.03 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C14663"
 			(at 240.03 138.43 0)
 			(effects
 				(font
@@ -7196,7 +7259,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 215.5952 142.24 0)
 			(effects
 				(font
@@ -7215,6 +7278,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 214.63 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C14663"
 			(at 214.63 138.43 0)
 			(effects
 				(font
@@ -7332,7 +7404,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Tumbler2:SW_TS-1088-AR02016"
 			(at 66.04 135.89 0)
 			(effects
 				(font
@@ -7341,7 +7413,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C720477.pdf"
 			(at 66.04 135.89 0)
 			(effects
 				(font
@@ -7352,6 +7424,15 @@
 		)
 		(property "Description" "Push button switch, generic, two pins"
 			(at 71.12 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C720477"
+			(at 71.12 135.89 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7402,7 +7483,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Tumbler2:SW_TS-1088-AR02016"
 			(at 101.6 135.89 0)
 			(effects
 				(font
@@ -7411,7 +7492,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C720477.pdf"
 			(at 101.6 135.89 0)
 			(effects
 				(font
@@ -7422,6 +7503,15 @@
 		)
 		(property "Description" "Push button switch, generic, two pins"
 			(at 106.68 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C720477"
+			(at 106.68 135.89 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7679,7 +7769,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C5116489.pdf"
 			(at 113.03 170.18 0)
 			(effects
 				(font
@@ -7689,6 +7779,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 113.03 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C5116489"
 			(at 113.03 170.18 0)
 			(effects
 				(font
@@ -8095,7 +8194,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 41.402 124.46 90)
 			(effects
 				(font
@@ -8114,6 +8213,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 43.18 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C98220"
 			(at 43.18 124.46 0)
 			(effects
 				(font
@@ -8233,7 +8341,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 88.9 127 0)
 			(effects
 				(font
@@ -8618,7 +8726,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 253.6952 142.24 0)
 			(effects
 				(font
@@ -8637,6 +8745,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 252.73 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C14663"
 			(at 252.73 138.43 0)
 			(effects
 				(font
@@ -8830,7 +8947,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C5116489.pdf"
 			(at 152.4 170.18 0)
 			(effects
 				(font
@@ -8840,6 +8957,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 152.4 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C5116489"
 			(at 152.4 170.18 0)
 			(effects
 				(font
@@ -8915,7 +9041,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 171.958 44.45 90)
 			(effects
 				(font
@@ -8934,6 +9060,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 170.18 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C137768"
 			(at 170.18 44.45 0)
 			(effects
 				(font
@@ -9052,7 +9187,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 84.7852 139.7 0)
 			(effects
 				(font
@@ -9071,6 +9206,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 83.82 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C29936"
 			(at 83.82 135.89 0)
 			(effects
 				(font
@@ -9537,7 +9681,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 265.1252 52.07 0)
 			(effects
 				(font
@@ -9556,6 +9700,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 264.16 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C96446"
 			(at 264.16 48.26 0)
 			(effects
 				(font
@@ -9739,7 +9892,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 206.502 44.45 90)
 			(effects
 				(font
@@ -9758,6 +9911,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 208.28 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C22548"
 			(at 208.28 44.45 0)
 			(effects
 				(font
@@ -9806,7 +9968,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 248.92 102.108 90)
 			(effects
 				(font
@@ -9826,6 +9988,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 248.92 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C98220"
+			(at 248.92 100.33 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9943,7 +10114,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 120.65 127 0)
 			(effects
 				(font
@@ -10689,7 +10860,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 69.342 124.46 90)
 			(effects
 				(font
@@ -10708,6 +10879,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 71.12 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C98220"
 			(at 71.12 124.46 0)
 			(effects
 				(font
@@ -10825,7 +11005,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Tumbler2:SW_TS-1088-AR02016"
 			(at 38.1 135.89 0)
 			(effects
 				(font
@@ -10834,7 +11014,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C720477.pdf"
 			(at 38.1 135.89 0)
 			(effects
 				(font
@@ -10845,6 +11025,15 @@
 		)
 		(property "Description" "Push button switch, generic, two pins"
 			(at 43.18 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C720477"
+			(at 43.18 135.89 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11093,7 +11282,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 57.15 127 0)
 			(effects
 				(font
@@ -11293,7 +11482,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 52.3748 52.07 0)
 			(effects
 				(font
@@ -11312,6 +11501,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 53.34 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C14663"
 			(at 53.34 48.26 0)
 			(effects
 				(font
@@ -11625,7 +11823,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 248.92 86.868 90)
 			(effects
 				(font
@@ -11645,6 +11843,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 248.92 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C98220"
+			(at 248.92 85.09 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11761,7 +11968,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 237.1852 52.07 0)
 			(effects
 				(font
@@ -11780,6 +11987,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 236.22 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C14663"
 			(at 236.22 48.26 0)
 			(effects
 				(font
@@ -12056,6 +12272,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C96446"
+			(at 40.64 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d2d394c9-bc4e-486c-8519-16754104685f")
 		)
@@ -12099,7 +12324,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 55.118 87.63 90)
 			(effects
 				(font
@@ -12118,6 +12343,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 53.34 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C99782"
 			(at 53.34 87.63 0)
 			(effects
 				(font
@@ -12168,7 +12402,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 228.2952 142.24 0)
 			(effects
 				(font
@@ -12187,6 +12421,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 227.33 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C14663"
 			(at 227.33 138.43 0)
 			(effects
 				(font

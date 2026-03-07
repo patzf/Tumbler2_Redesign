@@ -1802,6 +1802,17 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Fuse is currently rated at 5 A. Short inrush currents\nexceed this value, but the fuse is slow-blow and therefore\nonly trips after one minute at 200% of its rated current."
+		(exclude_from_sim no)
+		(at 48.006 46.736 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "307d2c25-9924-408a-a20f-e3772bb692dc")
+	)
 	(text "LDO after 3.3V buck converter not worth it.\nVCC and VCCA are directly connected inside\nWROOM 1 module. Eather use ESP32 ADC and\ndon't mind, or connect high precition ADC via\npin header to GPIOs or connect with bus"
 		(exclude_from_sim no)
 		(at 200.914 106.172 0)
@@ -2689,7 +2700,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 105.41 126.6952 0)
 			(effects
 				(font
@@ -2709,6 +2720,15 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 109.22 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C14663"
+			(at 109.22 125.73 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2918,6 +2938,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C96446"
+			(at 57.15 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0c71f44f-d692-497b-9676-cd784fc3a0a7")
 		)
@@ -2960,7 +2989,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 240.9952 76.2 0)
 			(effects
 				(font
@@ -2979,6 +3008,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 240.03 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C14663"
 			(at 240.03 72.39 0)
 			(effects
 				(font
@@ -3057,6 +3095,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C2762594"
+			(at 160.02 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c3eea340-be93-4950-84ca-a785b8ccde62")
 		)
@@ -3107,7 +3154,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C163035.pdf"
 			(at 50.8 73.66 0)
 			(effects
 				(font
@@ -3117,6 +3164,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 50.8 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C163035"
 			(at 50.8 73.66 0)
 			(effects
 				(font
@@ -3463,6 +3519,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C96446"
+			(at 71.12 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0b98c624-a29d-4444-80b7-6a7f28c66686")
 		)
@@ -3507,7 +3572,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 90.17 76.2 0)
 			(effects
 				(font
@@ -3573,7 +3638,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 145.7452 76.2 0)
 			(effects
 				(font
@@ -3592,6 +3657,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 144.78 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C14663"
 			(at 144.78 72.39 0)
 			(effects
 				(font
@@ -3643,7 +3717,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 204.47 62.23 0)
 			(effects
 				(font
@@ -3832,7 +3906,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "470"
+		(property "Value" "220"
 			(at 186.69 115.5699 0)
 			(effects
 				(font
@@ -3841,7 +3915,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 182.372 114.3 90)
 			(effects
 				(font
@@ -3860,6 +3934,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 184.15 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C107696"
 			(at 184.15 114.3 0)
 			(effects
 				(font
@@ -3930,6 +4013,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 168.91 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C2762594"
 			(at 168.91 72.39 0)
 			(effects
 				(font
@@ -4144,6 +4236,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C2762594"
+			(at 148.59 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0bff6a05-4c29-4141-8e9e-b39374641811")
 		)
@@ -4187,7 +4288,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 193.3448 76.2 0)
 			(effects
 				(font
@@ -4206,6 +4307,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 194.31 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C14663"
 			(at 194.31 72.39 0)
 			(effects
 				(font
@@ -4258,7 +4368,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 118.11 118.11 0)
 			(effects
 				(font
@@ -4524,7 +4634,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 76.2 121.92 0)
 			(effects
 				(font
@@ -4656,7 +4766,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 136.8552 121.92 0)
 			(effects
 				(font
@@ -4675,6 +4785,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 135.89 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C14663"
 			(at 135.89 118.11 0)
 			(effects
 				(font
@@ -4735,7 +4854,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C965804.pdf"
 			(at 184.15 123.19 0)
 			(effects
 				(font
@@ -4755,6 +4874,15 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 184.15 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C965804"
+			(at 184.15 123.19 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4787,7 +4915,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6674f8e7-2b96-40d7-bb46-af8895025f55")
-		(property "Reference" "F2"
+		(property "Reference" "F1"
 			(at 59.69 64.7699 0)
 			(effects
 				(font
@@ -4796,7 +4924,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "6.3A"
+		(property "Value" "5A"
 			(at 59.69 67.3099 0)
 			(effects
 				(font
@@ -4805,7 +4933,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Fuse:Fuseholder_Clip-5x20mm_Littelfuse_100_Inline_P20.50x4.60mm_D1.30mm_Horizontal"
+		(property "Footprint" "Fuse:Fuse_Littelfuse-NANO2-451_453"
 			(at 58.928 66.04 90)
 			(effects
 				(font
@@ -4814,7 +4942,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C142797.pdf"
+		(property "Datasheet" "https://www.littelfuse.com/assetdocs/fuse-452-and-454-datasheet?assetguid=8c87aa93-80a7-4ea8-8749-a19ba03901c2"
 			(at 57.15 66.04 0)
 			(effects
 				(font
@@ -4823,7 +4951,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Fuse"
+		(property "Description" "5A 125V Fuse Surface Mount 2410"
 			(at 57.15 66.04 0)
 			(effects
 				(font
@@ -4832,7 +4960,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C142797"
+		(property "LCSC Part" "C66503"
 			(at 57.15 66.04 90)
 			(effects
 				(font
@@ -4850,7 +4978,7 @@
 		(instances
 			(project ""
 				(path "/f3fd8d79-9d35-4c04-811e-2697a2740958/003ca151-4f76-4d52-861b-70be86047379"
-					(reference "F2")
+					(reference "F1")
 					(unit 1)
 				)
 			)
@@ -5617,6 +5745,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C2762594"
+			(at 157.48 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a524018d-f0e8-4385-acf7-a9b50c6dada7")
 		)
@@ -5658,7 +5795,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 120.65 80.9752 0)
 			(effects
 				(font
@@ -5678,6 +5815,15 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 124.46 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C14663"
+			(at 124.46 80.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5729,7 +5875,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 227.33 72.39 0)
 			(effects
 				(font
@@ -5895,83 +6041,6 @@
 			(project "Tumbler2_Redesign"
 				(path "/f3fd8d79-9d35-4c04-811e-2697a2740958/003ca151-4f76-4d52-861b-70be86047379"
 					(reference "#PWR033")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Fuse")
-		(at 63.5 49.53 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board no)
-		(dnp yes)
-		(fields_autoplaced yes)
-		(uuid "b6a0eda4-1d8a-4b66-b44a-b5e7c3706f30")
-		(property "Reference" "F1"
-			(at 63.5 43.18 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Fuse"
-			(at 63.5 45.72 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 63.5 51.308 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 63.5 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Fuse"
-			(at 63.5 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C142706"
-			(at 63.5 49.53 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "cebda99e-4428-47ce-8daf-7febdb18045b")
-		)
-		(pin "1"
-			(uuid "52747f59-871c-4f03-bb38-ed7fc54dc6a6")
-		)
-		(instances
-			(project ""
-				(path "/f3fd8d79-9d35-4c04-811e-2697a2740958/003ca151-4f76-4d52-861b-70be86047379"
-					(reference "F1")
 					(unit 1)
 				)
 			)
@@ -6269,7 +6338,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 70.1548 121.92 0)
 			(effects
 				(font
@@ -6288,6 +6357,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 71.12 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C14663"
 			(at 71.12 118.11 0)
 			(effects
 				(font
@@ -7022,7 +7100,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 84.1248 76.2 0)
 			(effects
 				(font
@@ -7041,6 +7119,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 85.09 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C14663"
 			(at 85.09 72.39 0)
 			(effects
 				(font
