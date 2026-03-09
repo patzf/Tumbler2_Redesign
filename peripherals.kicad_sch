@@ -5063,7 +5063,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 219.71 48.26 0)
 			(effects
 				(font
@@ -5850,7 +5850,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 199.39 48.26 0)
 			(effects
 				(font
