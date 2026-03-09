@@ -2735,7 +2735,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C14663"
+		(property "LCSC PN" "C14663"
 			(at 100.33 128.27 90)
 			(effects
 				(font
@@ -2946,7 +2946,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C96446"
+		(property "LCSC PN" "C96446"
 			(at 48.26 120.65 0)
 			(effects
 				(font
@@ -3024,7 +3024,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C14663"
+		(property "LCSC PN" "C14663"
 			(at 233.68 74.93 0)
 			(effects
 				(font
@@ -3103,7 +3103,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C2762594"
+		(property "LCSC PN" "C2762594"
 			(at 151.13 120.65 0)
 			(effects
 				(font
@@ -3180,7 +3180,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C163035"
+		(property "LCSC PN" "C163035"
 			(at 41.91 76.2 0)
 			(effects
 				(font
@@ -3325,7 +3325,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C114433"
+		(property "LCSC PN" "C114433"
 			(at 175.26 116.84 0)
 			(effects
 				(font
@@ -3536,7 +3536,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C307876"
+		(property "LCSC PN" "C307876"
 			(at 125.73 74.93 0)
 			(effects
 				(font
@@ -3615,7 +3615,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C96446"
+		(property "LCSC PN" "C96446"
 			(at 62.23 74.93 0)
 			(effects
 				(font
@@ -3760,7 +3760,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C14663"
+		(property "LCSC PN" "C14663"
 			(at 138.43 74.93 0)
 			(effects
 				(font
@@ -4037,7 +4037,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C2762594"
+		(property "LCSC PN" "C2762594"
 			(at 162.56 74.93 0)
 			(effects
 				(font
@@ -4116,7 +4116,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C2762594"
+		(property "LCSC PN" "C2762594"
 			(at 139.7 120.65 0)
 			(effects
 				(font
@@ -4195,7 +4195,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C14663"
+		(property "LCSC PN" "C14663"
 			(at 187.96 74.93 0)
 			(effects
 				(font
@@ -4737,7 +4737,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C14663"
+		(property "LCSC PN" "C14663"
 			(at 127 120.65 0)
 			(effects
 				(font
@@ -4825,7 +4825,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C965804"
+		(property "LCSC PN" "C965804"
 			(at 175.26 125.73 90)
 			(effects
 				(font
@@ -4904,8 +4904,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C66503"
-			(at 48.26 68.58 90)
+		(property "LCSC PN" "C66503"
+			(at 48.26 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5047,7 +5047,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C2869734"
+		(property "LCSC PN" "C2869734"
 			(at 208.28 72.39 0)
 			(effects
 				(font
@@ -5543,7 +5543,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C965804"
+		(property "LCSC PN" "C965804"
 			(at 252.73 80.01 90)
 			(effects
 				(font
@@ -5620,7 +5620,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C2071056"
+		(property "LCSC PN" "C2071056"
 			(at 101.6 72.39 0)
 			(effects
 				(font
@@ -5777,7 +5777,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C2762594"
+		(property "LCSC PN" "C2762594"
 			(at 151.13 74.93 0)
 			(effects
 				(font
@@ -5854,7 +5854,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C14663"
+		(property "LCSC PN" "C14663"
 			(at 118.11 82.55 90)
 			(effects
 				(font
@@ -6199,7 +6199,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C307876"
+		(property "LCSC PN" "C307876"
 			(at 107.95 120.65 0)
 			(effects
 				(font
@@ -6542,7 +6542,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C14663"
+		(property "LCSC PN" "C14663"
 			(at 62.23 120.65 0)
 			(effects
 				(font
@@ -6819,7 +6819,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C112310"
+		(property "LCSC PN" "C112310"
 			(at 252.73 71.12 0)
 			(effects
 				(font
@@ -7028,7 +7028,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C780769"
+		(property "LCSC PN" "C780769"
 			(at 83.82 118.11 0)
 			(effects
 				(font
@@ -7383,7 +7383,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C14663"
+		(property "LCSC PN" "C14663"
 			(at 76.2 74.93 0)
 			(effects
 				(font

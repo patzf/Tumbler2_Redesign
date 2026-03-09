@@ -606,8 +606,8 @@
         },
         {
           "group_by": false,
-          "label": "LCSC Part",
-          "name": "LCSC Part",
+          "label": "LCSC PN",
+          "name": "LCSC PN",
           "show": true
         }
       ],
