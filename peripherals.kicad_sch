@@ -3679,7 +3679,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0566d544-6884-4bdd-8cb6-c564fbfc7d8e")
-		(property "Reference" "#PWR0153"
+		(property "Reference" "#PWR0155"
 			(at 248.92 110.49 0)
 			(effects
 				(font
@@ -3729,7 +3729,7 @@
 		(instances
 			(project "Tumbler2_Redesign"
 				(path "/f3fd8d79-9d35-4c04-811e-2697a2740958/f8585a58-8128-4c19-a894-5097be4fe7b3"
-					(reference "#PWR0153")
+					(reference "#PWR0155")
 					(unit 1)
 				)
 			)
@@ -3830,7 +3830,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0c0a5d1a-05ee-46a9-ab25-c28c8bac2fdc")
-		(property "Reference" "#PWR0143"
+		(property "Reference" "#PWR0145"
 			(at 106.68 77.47 0)
 			(effects
 				(font
@@ -3880,7 +3880,7 @@
 		(instances
 			(project "Tumbler2_Redesign"
 				(path "/f3fd8d79-9d35-4c04-811e-2697a2740958/f8585a58-8128-4c19-a894-5097be4fe7b3"
-					(reference "#PWR0143")
+					(reference "#PWR0145")
 					(unit 1)
 				)
 			)
@@ -3896,7 +3896,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0d8e7a70-3282-4be9-ba91-062a5d25e8f5")
-		(property "Reference" "R29"
+		(property "Reference" "R30"
 			(at 69.85 158.7499 0)
 			(effects
 				(font
@@ -3959,7 +3959,7 @@
 		(instances
 			(project "Tumbler2_Redesign"
 				(path "/f3fd8d79-9d35-4c04-811e-2697a2740958/f8585a58-8128-4c19-a894-5097be4fe7b3"
-					(reference "R29")
+					(reference "R30")
 					(unit 1)
 				)
 			)
@@ -3975,7 +3975,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0dc2c4db-f82a-4df3-a683-972e37475034")
-		(property "Reference" "#PWR0164"
+		(property "Reference" "#PWR0166"
 			(at 67.31 139.7 0)
 			(effects
 				(font
@@ -4025,7 +4025,7 @@
 		(instances
 			(project "Tumbler2_Redesign"
 				(path "/f3fd8d79-9d35-4c04-811e-2697a2740958/f8585a58-8128-4c19-a894-5097be4fe7b3"
-					(reference "#PWR0164")
+					(reference "#PWR0166")
 					(unit 1)
 				)
 			)
@@ -4120,7 +4120,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2295f5b2-c1a6-4000-96d7-a772540cca84")
-		(property "Reference" "R24"
+		(property "Reference" "R25"
 			(at 57.15 128.2699 0)
 			(effects
 				(font
@@ -4183,7 +4183,7 @@
 		(instances
 			(project "Tumbler2_Redesign"
 				(path "/f3fd8d79-9d35-4c04-811e-2697a2740958/f8585a58-8128-4c19-a894-5097be4fe7b3"
-					(reference "R24")
+					(reference "R25")
 					(unit 1)
 				)
 			)
@@ -4199,7 +4199,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "26d47490-87a9-4737-a923-32fa40728e32")
-		(property "Reference" "#PWR0150"
+		(property "Reference" "#PWR0152"
 			(at 189.23 110.49 0)
 			(effects
 				(font
@@ -4249,7 +4249,7 @@
 		(instances
 			(project "Tumbler2_Redesign"
 				(path "/f3fd8d79-9d35-4c04-811e-2697a2740958/f8585a58-8128-4c19-a894-5097be4fe7b3"
-					(reference "#PWR0150")
+					(reference "#PWR0152")
 					(unit 1)
 				)
 			)
@@ -4265,7 +4265,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2d734d68-02a6-4daf-aabd-514a36c73400")
-		(property "Reference" "#PWR0149"
+		(property "Reference" "#PWR0151"
 			(at 184.15 110.49 0)
 			(effects
 				(font
@@ -4315,7 +4315,7 @@
 		(instances
 			(project "Tumbler2_Redesign"
 				(path "/f3fd8d79-9d35-4c04-811e-2697a2740958/f8585a58-8128-4c19-a894-5097be4fe7b3"
-					(reference "#PWR0149")
+					(reference "#PWR0151")
 					(unit 1)
 				)
 			)
@@ -4331,7 +4331,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2e36ddcf-ced7-48a6-ac0d-f492b33efa3a")
-		(property "Reference" "#PWR0167"
+		(property "Reference" "#PWR0169"
 			(at 54.61 170.18 0)
 			(effects
 				(font
@@ -4381,7 +4381,7 @@
 		(instances
 			(project "Tumbler2_Redesign"
 				(path "/f3fd8d79-9d35-4c04-811e-2697a2740958/f8585a58-8128-4c19-a894-5097be4fe7b3"
-					(reference "#PWR0167")
+					(reference "#PWR0169")
 					(unit 1)
 				)
 			)
@@ -4397,7 +4397,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "343472e8-6509-432c-925c-99585df68382")
-		(property "Reference" "#PWR0155"
+		(property "Reference" "#PWR0157"
 			(at 92.71 127 0)
 			(effects
 				(font
@@ -4448,7 +4448,7 @@
 		(instances
 			(project "Tumbler2_Redesign"
 				(path "/f3fd8d79-9d35-4c04-811e-2697a2740958/f8585a58-8128-4c19-a894-5097be4fe7b3"
-					(reference "#PWR0155")
+					(reference "#PWR0157")
 					(unit 1)
 				)
 			)
@@ -4464,7 +4464,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "45c29019-fa4a-47ac-bdec-4c2fdeec6ce8")
-		(property "Reference" "#PWR0134"
+		(property "Reference" "#PWR0136"
 			(at 83.82 39.37 0)
 			(effects
 				(font
@@ -4514,7 +4514,7 @@
 		(instances
 			(project "Tumbler2_Redesign"
 				(path "/f3fd8d79-9d35-4c04-811e-2697a2740958/f8585a58-8128-4c19-a894-5097be4fe7b3"
-					(reference "#PWR0134")
+					(reference "#PWR0136")
 					(unit 1)
 				)
 			)
@@ -4530,7 +4530,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "47580cf3-c52e-4c13-9890-c303fcbb4f3d")
-		(property "Reference" "#PWR0140"
+		(property "Reference" "#PWR0142"
 			(at 83.82 55.88 0)
 			(effects
 				(font
@@ -4580,7 +4580,7 @@
 		(instances
 			(project "Tumbler2_Redesign"
 				(path "/f3fd8d79-9d35-4c04-811e-2697a2740958/f8585a58-8128-4c19-a894-5097be4fe7b3"
-					(reference "#PWR0140")
+					(reference "#PWR0142")
 					(unit 1)
 				)
 			)
@@ -4596,7 +4596,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "50c13ced-235c-42d4-8ba0-e493ad1939af")
-		(property "Reference" "#PWR0168"
+		(property "Reference" "#PWR0170"
 			(at 67.31 170.18 0)
 			(effects
 				(font
@@ -4646,7 +4646,7 @@
 		(instances
 			(project "Tumbler2_Redesign"
 				(path "/f3fd8d79-9d35-4c04-811e-2697a2740958/f8585a58-8128-4c19-a894-5097be4fe7b3"
-					(reference "#PWR0168")
+					(reference "#PWR0170")
 					(unit 1)
 				)
 			)
@@ -4741,7 +4741,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "55495036-3025-4195-9b04-75df64763fc0")
-		(property "Reference" "R19"
+		(property "Reference" "R20"
 			(at 149.86 39.3699 0)
 			(effects
 				(font
@@ -4804,7 +4804,7 @@
 		(instances
 			(project "Tumbler2_Redesign"
 				(path "/f3fd8d79-9d35-4c04-811e-2697a2740958/f8585a58-8128-4c19-a894-5097be4fe7b3"
-					(reference "R19")
+					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -4820,7 +4820,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "58a9ed76-5032-4cf6-b791-8208c860c58f")
-		(property "Reference" "R22"
+		(property "Reference" "R23"
 			(at 60.96 115.57 90)
 			(effects
 				(font
@@ -4881,7 +4881,7 @@
 		(instances
 			(project ""
 				(path "/f3fd8d79-9d35-4c04-811e-2697a2740958/f8585a58-8128-4c19-a894-5097be4fe7b3"
-					(reference "R22")
+					(reference "R23")
 					(unit 1)
 				)
 			)
@@ -5210,7 +5210,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "78811b64-13d6-45f0-b72b-fdb6d0ac901d")
-		(property "Reference" "R20"
+		(property "Reference" "R21"
 			(at 210.82 45.72 90)
 			(effects
 				(font
@@ -5271,7 +5271,7 @@
 		(instances
 			(project "Tumbler2_Redesign"
 				(path "/f3fd8d79-9d35-4c04-811e-2697a2740958/f8585a58-8128-4c19-a894-5097be4fe7b3"
-					(reference "R20")
+					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -5287,7 +5287,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "78c8e89c-bff2-4160-bebc-6946f812fc06")
-		(property "Reference" "#PWR0144"
+		(property "Reference" "#PWR0146"
 			(at 125.73 77.47 0)
 			(effects
 				(font
@@ -5337,7 +5337,7 @@
 		(instances
 			(project "Tumbler2_Redesign"
 				(path "/f3fd8d79-9d35-4c04-811e-2697a2740958/f8585a58-8128-4c19-a894-5097be4fe7b3"
-					(reference "#PWR0144")
+					(reference "#PWR0146")
 					(unit 1)
 				)
 			)
@@ -5353,7 +5353,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7b8bc483-a6f5-4df7-b142-009438a6a89d")
-		(property "Reference" "#PWR0157"
+		(property "Reference" "#PWR0159"
 			(at 143.51 133.35 0)
 			(effects
 				(font
@@ -5403,7 +5403,7 @@
 		(instances
 			(project "Tumbler2_Redesign"
 				(path "/f3fd8d79-9d35-4c04-811e-2697a2740958/f8585a58-8128-4c19-a894-5097be4fe7b3"
-					(reference "#PWR0157")
+					(reference "#PWR0159")
 					(unit 1)
 				)
 			)
@@ -5419,7 +5419,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "842c7672-3e42-4ea1-866c-26b46310b925")
-		(property "Reference" "R26"
+		(property "Reference" "R27"
 			(at 60.96 146.05 90)
 			(effects
 				(font
@@ -5480,7 +5480,7 @@
 		(instances
 			(project "Tumbler2_Redesign"
 				(path "/f3fd8d79-9d35-4c04-811e-2697a2740958/f8585a58-8128-4c19-a894-5097be4fe7b3"
-					(reference "R26")
+					(reference "R27")
 					(unit 1)
 				)
 			)
@@ -5496,7 +5496,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8bfa28a9-bec5-4c9f-a7ce-66bc2c64c85d")
-		(property "Reference" "#PWR0161"
+		(property "Reference" "#PWR0163"
 			(at 184.15 138.43 0)
 			(effects
 				(font
@@ -5546,7 +5546,7 @@
 		(instances
 			(project "Tumbler2_Redesign"
 				(path "/f3fd8d79-9d35-4c04-811e-2697a2740958/f8585a58-8128-4c19-a894-5097be4fe7b3"
-					(reference "#PWR0161")
+					(reference "#PWR0163")
 					(unit 1)
 				)
 			)
@@ -5562,7 +5562,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "914b0897-a8f5-40b9-a3cb-f0b5a8f6c932")
-		(property "Reference" "R28"
+		(property "Reference" "R29"
 			(at 57.15 158.7499 0)
 			(effects
 				(font
@@ -5625,7 +5625,7 @@
 		(instances
 			(project "Tumbler2_Redesign"
 				(path "/f3fd8d79-9d35-4c04-811e-2697a2740958/f8585a58-8128-4c19-a894-5097be4fe7b3"
-					(reference "R28")
+					(reference "R29")
 					(unit 1)
 				)
 			)
@@ -5641,7 +5641,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "93415032-5912-4306-be5d-c4aa347031c8")
-		(property "Reference" "#PWR0154"
+		(property "Reference" "#PWR0156"
 			(at 82.55 119.38 0)
 			(effects
 				(font
@@ -5692,7 +5692,7 @@
 		(instances
 			(project "Tumbler2_Redesign"
 				(path "/f3fd8d79-9d35-4c04-811e-2697a2740958/f8585a58-8128-4c19-a894-5097be4fe7b3"
-					(reference "#PWR0154")
+					(reference "#PWR0156")
 					(unit 1)
 				)
 			)
@@ -5708,7 +5708,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "93a4e347-330d-42a8-aa7c-e9e30897ce40")
-		(property "Reference" "#PWR0165"
+		(property "Reference" "#PWR0167"
 			(at 82.55 149.86 0)
 			(effects
 				(font
@@ -5759,7 +5759,7 @@
 		(instances
 			(project "Tumbler2_Redesign"
 				(path "/f3fd8d79-9d35-4c04-811e-2697a2740958/f8585a58-8128-4c19-a894-5097be4fe7b3"
-					(reference "#PWR0165")
+					(reference "#PWR0167")
 					(unit 1)
 				)
 			)
@@ -5775,7 +5775,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "94969508-d60d-4a77-a891-de353c3a4f22")
-		(property "Reference" "#PWR0151"
+		(property "Reference" "#PWR0153"
 			(at 223.52 110.49 0)
 			(effects
 				(font
@@ -5825,7 +5825,7 @@
 		(instances
 			(project "Tumbler2_Redesign"
 				(path "/f3fd8d79-9d35-4c04-811e-2697a2740958/f8585a58-8128-4c19-a894-5097be4fe7b3"
-					(reference "#PWR0151")
+					(reference "#PWR0153")
 					(unit 1)
 				)
 			)
@@ -5920,7 +5920,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "969c0503-3651-49f2-8d64-960f5744ae07")
-		(property "Reference" "#PWR0160"
+		(property "Reference" "#PWR0162"
 			(at 248.92 133.35 0)
 			(effects
 				(font
@@ -5970,7 +5970,7 @@
 		(instances
 			(project "Tumbler2_Redesign"
 				(path "/f3fd8d79-9d35-4c04-811e-2697a2740958/f8585a58-8128-4c19-a894-5097be4fe7b3"
-					(reference "#PWR0160")
+					(reference "#PWR0162")
 					(unit 1)
 				)
 			)
@@ -5986,7 +5986,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "99493506-4186-4c70-8537-587c6c9f6747")
-		(property "Reference" "R21"
+		(property "Reference" "R22"
 			(at 207.01 55.8799 0)
 			(effects
 				(font
@@ -6049,7 +6049,7 @@
 		(instances
 			(project "Tumbler2_Redesign"
 				(path "/f3fd8d79-9d35-4c04-811e-2697a2740958/f8585a58-8128-4c19-a894-5097be4fe7b3"
-					(reference "R21")
+					(reference "R22")
 					(unit 1)
 				)
 			)
@@ -6065,7 +6065,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9add3451-5743-40b0-b458-7fa0f432ab23")
-		(property "Reference" "#PWR0136"
+		(property "Reference" "#PWR0138"
 			(at 128.27 39.37 0)
 			(effects
 				(font
@@ -6115,7 +6115,7 @@
 		(instances
 			(project "Tumbler2_Redesign"
 				(path "/f3fd8d79-9d35-4c04-811e-2697a2740958/f8585a58-8128-4c19-a894-5097be4fe7b3"
-					(reference "#PWR0136")
+					(reference "#PWR0138")
 					(unit 1)
 				)
 			)
@@ -6131,7 +6131,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9f8d4ca9-c576-467a-b2d3-35fb7db29496")
-		(property "Reference" "#PWR0146"
+		(property "Reference" "#PWR0148"
 			(at 160.02 77.47 0)
 			(effects
 				(font
@@ -6181,7 +6181,7 @@
 		(instances
 			(project "Tumbler2_Redesign"
 				(path "/f3fd8d79-9d35-4c04-811e-2697a2740958/f8585a58-8128-4c19-a894-5097be4fe7b3"
-					(reference "#PWR0146")
+					(reference "#PWR0148")
 					(unit 1)
 				)
 			)
@@ -6341,7 +6341,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a6c01be1-c16f-4a6d-88a3-ffeafe2fa002")
-		(property "Reference" "#PWR0137"
+		(property "Reference" "#PWR0139"
 			(at 147.32 39.37 0)
 			(effects
 				(font
@@ -6391,7 +6391,7 @@
 		(instances
 			(project "Tumbler2_Redesign"
 				(path "/f3fd8d79-9d35-4c04-811e-2697a2740958/f8585a58-8128-4c19-a894-5097be4fe7b3"
-					(reference "#PWR0137")
+					(reference "#PWR0139")
 					(unit 1)
 				)
 			)
@@ -6407,7 +6407,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ab590b6e-1a23-43f4-aa13-dd3601e295fe")
-		(property "Reference" "#PWR0159"
+		(property "Reference" "#PWR0161"
 			(at 236.22 133.35 0)
 			(effects
 				(font
@@ -6457,7 +6457,7 @@
 		(instances
 			(project "Tumbler2_Redesign"
 				(path "/f3fd8d79-9d35-4c04-811e-2697a2740958/f8585a58-8128-4c19-a894-5097be4fe7b3"
-					(reference "#PWR0159")
+					(reference "#PWR0161")
 					(unit 1)
 				)
 			)
@@ -6473,7 +6473,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ae36cde1-98b9-4214-899f-a883af6a0c16")
-		(property "Reference" "#PWR0148"
+		(property "Reference" "#PWR0150"
 			(at 143.51 110.49 0)
 			(effects
 				(font
@@ -6523,7 +6523,7 @@
 		(instances
 			(project "Tumbler2_Redesign"
 				(path "/f3fd8d79-9d35-4c04-811e-2697a2740958/f8585a58-8128-4c19-a894-5097be4fe7b3"
-					(reference "#PWR0148")
+					(reference "#PWR0150")
 					(unit 1)
 				)
 			)
@@ -6539,7 +6539,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b2c3d7bb-e5b8-4629-82f0-b9d1ead2d66a")
-		(property "Reference" "R23"
+		(property "Reference" "R24"
 			(at 73.66 118.11 90)
 			(effects
 				(font
@@ -6600,7 +6600,7 @@
 		(instances
 			(project "Tumbler2_Redesign"
 				(path "/f3fd8d79-9d35-4c04-811e-2697a2740958/f8585a58-8128-4c19-a894-5097be4fe7b3"
-					(reference "R23")
+					(reference "R24")
 					(unit 1)
 				)
 			)
@@ -6616,7 +6616,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b674388b-4254-4fae-a928-32d7dcb91a95")
-		(property "Reference" "#PWR0158"
+		(property "Reference" "#PWR0160"
 			(at 223.52 133.35 0)
 			(effects
 				(font
@@ -6666,7 +6666,7 @@
 		(instances
 			(project "Tumbler2_Redesign"
 				(path "/f3fd8d79-9d35-4c04-811e-2697a2740958/f8585a58-8128-4c19-a894-5097be4fe7b3"
-					(reference "#PWR0158")
+					(reference "#PWR0160")
 					(unit 1)
 				)
 			)
@@ -6682,7 +6682,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bb126abf-ac5b-45ac-8b2e-a06208438a75")
-		(property "Reference" "TP11"
+		(property "Reference" "TP10"
 			(at 158.75 39.8779 0)
 			(effects
 				(font
@@ -6734,7 +6734,7 @@
 		(instances
 			(project "Tumbler2_Redesign"
 				(path "/f3fd8d79-9d35-4c04-811e-2697a2740958/f8585a58-8128-4c19-a894-5097be4fe7b3"
-					(reference "TP11")
+					(reference "TP10")
 					(unit 1)
 				)
 			)
@@ -6750,7 +6750,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c0e8f956-f560-4a56-89a3-2bb901881022")
-		(property "Reference" "#PWR0163"
+		(property "Reference" "#PWR0165"
 			(at 54.61 139.7 0)
 			(effects
 				(font
@@ -6800,7 +6800,7 @@
 		(instances
 			(project "Tumbler2_Redesign"
 				(path "/f3fd8d79-9d35-4c04-811e-2697a2740958/f8585a58-8128-4c19-a894-5097be4fe7b3"
-					(reference "#PWR0163")
+					(reference "#PWR0165")
 					(unit 1)
 				)
 			)
@@ -6986,7 +6986,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cd8bef4e-b341-4c1c-8b80-8d88611480aa")
-		(property "Reference" "#PWR0133"
+		(property "Reference" "#PWR0135"
 			(at 69.85 39.37 0)
 			(effects
 				(font
@@ -7036,7 +7036,7 @@
 		(instances
 			(project "Tumbler2_Redesign"
 				(path "/f3fd8d79-9d35-4c04-811e-2697a2740958/f8585a58-8128-4c19-a894-5097be4fe7b3"
-					(reference "#PWR0133")
+					(reference "#PWR0135")
 					(unit 1)
 				)
 			)
@@ -7052,7 +7052,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cdbce6c2-fce2-48e3-bc98-8713b48af46f")
-		(property "Reference" "#PWR0142"
+		(property "Reference" "#PWR0144"
 			(at 204.47 67.31 0)
 			(effects
 				(font
@@ -7102,7 +7102,7 @@
 		(instances
 			(project "Tumbler2_Redesign"
 				(path "/f3fd8d79-9d35-4c04-811e-2697a2740958/f8585a58-8128-4c19-a894-5097be4fe7b3"
-					(reference "#PWR0142")
+					(reference "#PWR0144")
 					(unit 1)
 				)
 			)
@@ -7118,7 +7118,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d69f4b19-ec98-4996-a8c5-cc3c6ec86b10")
-		(property "Reference" "#PWR0139"
+		(property "Reference" "#PWR0141"
 			(at 69.85 55.88 0)
 			(effects
 				(font
@@ -7168,7 +7168,7 @@
 		(instances
 			(project "Tumbler2_Redesign"
 				(path "/f3fd8d79-9d35-4c04-811e-2697a2740958/f8585a58-8128-4c19-a894-5097be4fe7b3"
-					(reference "#PWR0139")
+					(reference "#PWR0141")
 					(unit 1)
 				)
 			)
@@ -7184,7 +7184,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d6e9be8e-ca2b-4244-8d5c-148c9e24a5bc")
-		(property "Reference" "#PWR0145"
+		(property "Reference" "#PWR0147"
 			(at 147.32 77.47 0)
 			(effects
 				(font
@@ -7234,7 +7234,7 @@
 		(instances
 			(project "Tumbler2_Redesign"
 				(path "/f3fd8d79-9d35-4c04-811e-2697a2740958/f8585a58-8128-4c19-a894-5097be4fe7b3"
-					(reference "#PWR0145")
+					(reference "#PWR0147")
 					(unit 1)
 				)
 			)
@@ -7328,7 +7328,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d877f492-7542-45aa-bab2-56f7aa5bb934")
-		(property "Reference" "#PWR0156"
+		(property "Reference" "#PWR0158"
 			(at 130.81 133.35 0)
 			(effects
 				(font
@@ -7378,7 +7378,7 @@
 		(instances
 			(project "Tumbler2_Redesign"
 				(path "/f3fd8d79-9d35-4c04-811e-2697a2740958/f8585a58-8128-4c19-a894-5097be4fe7b3"
-					(reference "#PWR0156")
+					(reference "#PWR0158")
 					(unit 1)
 				)
 			)
@@ -7394,7 +7394,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d9d69e5b-9c8d-4fd8-a7b0-abf7075ce4ce")
-		(property "Reference" "#PWR0135"
+		(property "Reference" "#PWR0137"
 			(at 123.19 39.37 0)
 			(effects
 				(font
@@ -7444,7 +7444,7 @@
 		(instances
 			(project "Tumbler2_Redesign"
 				(path "/f3fd8d79-9d35-4c04-811e-2697a2740958/f8585a58-8128-4c19-a894-5097be4fe7b3"
-					(reference "#PWR0135")
+					(reference "#PWR0137")
 					(unit 1)
 				)
 			)
@@ -7460,7 +7460,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "db2d0543-b076-4a42-a706-7e1991a66a8e")
-		(property "Reference" "#PWR0152"
+		(property "Reference" "#PWR0154"
 			(at 236.22 110.49 0)
 			(effects
 				(font
@@ -7510,7 +7510,7 @@
 		(instances
 			(project "Tumbler2_Redesign"
 				(path "/f3fd8d79-9d35-4c04-811e-2697a2740958/f8585a58-8128-4c19-a894-5097be4fe7b3"
-					(reference "#PWR0152")
+					(reference "#PWR0154")
 					(unit 1)
 				)
 			)
@@ -7526,7 +7526,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dc798eaf-377f-485f-b833-e18c8341b50b")
-		(property "Reference" "#PWR0141"
+		(property "Reference" "#PWR0143"
 			(at 220.98 62.23 0)
 			(effects
 				(font
@@ -7576,7 +7576,7 @@
 		(instances
 			(project "Tumbler2_Redesign"
 				(path "/f3fd8d79-9d35-4c04-811e-2697a2740958/f8585a58-8128-4c19-a894-5097be4fe7b3"
-					(reference "#PWR0141")
+					(reference "#PWR0143")
 					(unit 1)
 				)
 			)
@@ -7592,7 +7592,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dfe042c5-0a41-4ec5-876d-cac5d2c6826b")
-		(property "Reference" "#PWR0162"
+		(property "Reference" "#PWR0164"
 			(at 189.23 138.43 0)
 			(effects
 				(font
@@ -7642,7 +7642,7 @@
 		(instances
 			(project "Tumbler2_Redesign"
 				(path "/f3fd8d79-9d35-4c04-811e-2697a2740958/f8585a58-8128-4c19-a894-5097be4fe7b3"
-					(reference "#PWR0162")
+					(reference "#PWR0164")
 					(unit 1)
 				)
 			)
@@ -7658,7 +7658,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dfebbe17-b49d-4ba2-9fab-a31b6ab6492d")
-		(property "Reference" "#PWR0147"
+		(property "Reference" "#PWR0149"
 			(at 130.81 110.49 0)
 			(effects
 				(font
@@ -7708,7 +7708,7 @@
 		(instances
 			(project "Tumbler2_Redesign"
 				(path "/f3fd8d79-9d35-4c04-811e-2697a2740958/f8585a58-8128-4c19-a894-5097be4fe7b3"
-					(reference "#PWR0147")
+					(reference "#PWR0149")
 					(unit 1)
 				)
 			)
@@ -7724,7 +7724,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e8a091b7-0dd2-4bc4-aa92-905f3bd318a9")
-		(property "Reference" "R25"
+		(property "Reference" "R26"
 			(at 69.85 128.2699 0)
 			(effects
 				(font
@@ -7787,7 +7787,7 @@
 		(instances
 			(project "Tumbler2_Redesign"
 				(path "/f3fd8d79-9d35-4c04-811e-2697a2740958/f8585a58-8128-4c19-a894-5097be4fe7b3"
-					(reference "R25")
+					(reference "R26")
 					(unit 1)
 				)
 			)
@@ -7882,7 +7882,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e97981cb-7896-41d6-9be2-8356ec92fe11")
-		(property "Reference" "R27"
+		(property "Reference" "R28"
 			(at 73.66 148.59 90)
 			(effects
 				(font
@@ -7943,7 +7943,7 @@
 		(instances
 			(project "Tumbler2_Redesign"
 				(path "/f3fd8d79-9d35-4c04-811e-2697a2740958/f8585a58-8128-4c19-a894-5097be4fe7b3"
-					(reference "R27")
+					(reference "R28")
 					(unit 1)
 				)
 			)
@@ -7959,7 +7959,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eda803cd-330c-4385-84a5-48c7292a22fa")
-		(property "Reference" "#PWR0138"
+		(property "Reference" "#PWR0140"
 			(at 220.98 49.53 0)
 			(effects
 				(font
@@ -8009,7 +8009,7 @@
 		(instances
 			(project "Tumbler2_Redesign"
 				(path "/f3fd8d79-9d35-4c04-811e-2697a2740958/f8585a58-8128-4c19-a894-5097be4fe7b3"
-					(reference "#PWR0138")
+					(reference "#PWR0140")
 					(unit 1)
 				)
 			)
@@ -8104,7 +8104,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fad9b724-a446-41a1-8918-2232a98b1017")
-		(property "Reference" "#PWR0166"
+		(property "Reference" "#PWR0168"
 			(at 92.71 157.48 0)
 			(effects
 				(font
@@ -8155,7 +8155,7 @@
 		(instances
 			(project "Tumbler2_Redesign"
 				(path "/f3fd8d79-9d35-4c04-811e-2697a2740958/f8585a58-8128-4c19-a894-5097be4fe7b3"
-					(reference "#PWR0166")
+					(reference "#PWR0168")
 					(unit 1)
 				)
 			)
