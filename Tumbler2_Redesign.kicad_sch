@@ -297,6 +297,16 @@
 		)
 		(uuid "d0817880-5eb4-4bc7-afd5-68faab7e89e3")
 	)
+	(wire
+		(pts
+			(xy 153.67 127) (xy 166.37 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5678b76-df93-4442-88b4-bdb426b4caa7")
+	)
 	(bus
 		(pts
 			(xy 120.65 93.98) (xy 133.35 93.98)
@@ -898,7 +908,7 @@
 	)
 	(sheet
 		(at 133.35 83.82)
-		(size 20.32 35.56)
+		(size 20.32 46.99)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -922,7 +932,7 @@
 			)
 		)
 		(property "Sheetfile" "mcu.kicad_sch"
-			(at 133.35 119.9646 0)
+			(at 133.35 131.3946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1021,6 +1031,16 @@
 				(justify right)
 			)
 		)
+		(pin "RGB" output
+			(at 153.67 127 0)
+			(uuid "b2641336-dada-461b-90c8-dc08572e020e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "Tumbler2_Redesign"
 				(path "/f3fd8d79-9d35-4c04-811e-2697a2740958"
@@ -1088,6 +1108,59 @@
 			(project "Tumbler2_Redesign"
 				(path "/f3fd8d79-9d35-4c04-811e-2697a2740958"
 					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 166.37 123.19)
+		(size 19.05 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "8522accb-b87e-46d8-a11d-cbf6de0eac35")
+		(property "Sheetname" "RGB LEDs"
+			(at 166.37 122.4784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "rgb_leds.kicad_sch"
+			(at 166.37 131.3946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "RGB" input
+			(at 166.37 127 180)
+			(uuid "a28b183a-55f4-41e0-b7c3-ad4163e38fe4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "Tumbler2_Redesign"
+				(path "/f3fd8d79-9d35-4c04-811e-2697a2740958"
+					(page "6")
 				)
 			)
 		)
