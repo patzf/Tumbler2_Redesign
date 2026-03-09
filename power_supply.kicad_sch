@@ -1813,9 +1813,9 @@
 		)
 		(uuid "307d2c25-9924-408a-a20f-e3772bb692dc")
 	)
-	(text "LDO after 3.3V buck converter not worth it.\nVCC and VCCA are directly connected inside\nWROOM 1 module. Eather use ESP32 ADC and\ndon't mind, or connect high precition ADC via\npin header to GPIOs or connect with bus"
+	(text "LDO after 3.3V buck converter not worth it.\nVCC and VCCA are directly connected inside\nWROOM 1 module. Eather use ESP32 ADC and\ndon't mind, or connect high precition ADC via\npin header to GPIOs or connect with bus. If a\nLDO is still desired, use NCP161 for high PSRR."
 		(exclude_from_sim no)
-		(at 192.024 108.712 0)
+		(at 192.024 110.236 0)
 		(effects
 			(font
 				(size 1.27 1.27)
