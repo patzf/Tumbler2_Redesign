@@ -775,7 +775,7 @@
 		)
 		(uuid "e439ce4d-545d-467b-9fa7-0434fb9a0cb6")
 	)
-	(text_box "Buck Converter"
+	(text_box "LDO"
 		(exclude_from_sim no)
 		(at 58.42 72.39 0)
 		(size 15.24 5.08)
@@ -1310,6 +1310,15 @@
 				(hide yes)
 			)
 		)
+		(property "SnapEDA_Link" ""
+			(at 247.65 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0e8db1ab-7204-47e4-a5eb-1fc0b31e8899")
 		)
@@ -1444,6 +1453,15 @@
 				(hide yes)
 			)
 		)
+		(property "SnapEDA_Link" ""
+			(at 265.43 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7c599ef9-fa5c-4038-b24b-f767bd97ef21")
 		)
@@ -1504,6 +1522,15 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
+			(at 265.43 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" ""
 			(at 265.43 134.62 0)
 			(effects
 				(font
@@ -1638,6 +1665,15 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
+			(at 247.65 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" ""
 			(at 247.65 134.62 0)
 			(effects
 				(font
