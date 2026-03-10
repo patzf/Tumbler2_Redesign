@@ -3676,15 +3676,6 @@
 				(hide yes)
 			)
 		)
-		(property "SnapEDA_Link" ""
-			(at 234.95 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "3"
 			(uuid "93968230-213f-4569-9889-9940212f238a")
 		)
@@ -3762,15 +3753,6 @@
 			)
 		)
 		(property "LCSC PN" "C108078"
-			(at 67.31 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" ""
 			(at 67.31 160.02 0)
 			(effects
 				(font
@@ -3924,15 +3906,6 @@
 				(hide yes)
 			)
 		)
-		(property "SnapEDA_Link" ""
-			(at 71.12 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "7d63c1e4-aa0f-4caa-ac2f-a29f37a481ab")
 		)
@@ -4004,15 +3977,6 @@
 			)
 		)
 		(property "LCSC PN" "C108078"
-			(at 54.61 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" ""
 			(at 54.61 129.54 0)
 			(effects
 				(font
@@ -4746,15 +4710,6 @@
 				(hide yes)
 			)
 		)
-		(property "SnapEDA_Link" ""
-			(at 134.62 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "6c253640-45cb-49c0-a343-f1c2d08f062a")
 		)
@@ -4834,15 +4789,6 @@
 				(hide yes)
 			)
 		)
-		(property "SnapEDA_Link" ""
-			(at 144.78 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "d93ef38b-e787-48d8-b0e1-6a3ab9a7ce9d")
 		)
@@ -4912,15 +4858,6 @@
 			)
 		)
 		(property "LCSC PN" "C185354"
-			(at 60.96 121.92 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" ""
 			(at 60.96 121.92 90)
 			(effects
 				(font
@@ -5075,15 +5012,6 @@
 				(hide yes)
 			)
 		)
-		(property "SnapEDA_Link" ""
-			(at 93.98 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "4"
 			(uuid "41c88333-9cb6-4477-aa73-5c2cd2f21f3f")
 		)
@@ -5167,15 +5095,6 @@
 				(hide yes)
 			)
 		)
-		(property "SnapEDA_Link" ""
-			(at 224.79 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "dac284c1-01fd-4625-b7dc-90d8bf15f6a9")
 		)
@@ -5244,15 +5163,6 @@
 			)
 		)
 		(property "LCSC PN" "C250054"
-			(at 254 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" ""
 			(at 254 115.57 0)
 			(effects
 				(font
@@ -5471,15 +5381,6 @@
 				(hide yes)
 			)
 		)
-		(property "SnapEDA_Link" ""
-			(at 177.8 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "24"
 			(uuid "43f43592-136c-40a7-aab7-6cd7fd2b2471")
 		)
@@ -5624,15 +5525,6 @@
 				(hide yes)
 			)
 		)
-		(property "SnapEDA_Link" ""
-			(at 227.33 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "1717713a-95ab-4898-8570-ae50b09061b7")
 		)
@@ -5702,15 +5594,6 @@
 			)
 		)
 		(property "LCSC PN" "C185354"
-			(at 210.82 52.07 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" ""
 			(at 210.82 52.07 90)
 			(effects
 				(font
@@ -5862,15 +5745,6 @@
 				(hide yes)
 			)
 		)
-		(property "SnapEDA_Link" ""
-			(at 60.96 152.4 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "5a324d03-4300-4d23-832b-4d31801b0bc7")
 		)
@@ -6008,15 +5882,6 @@
 				(hide yes)
 			)
 		)
-		(property "SnapEDA_Link" ""
-			(at 204.47 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "a1c47f84-9ef0-40c8-990c-135463c0d9b6")
 		)
@@ -6085,15 +5950,6 @@
 			)
 		)
 		(property "LCSC PN" "C108078"
-			(at 54.61 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" ""
 			(at 54.61 160.02 0)
 			(effects
 				(font
@@ -6439,15 +6295,6 @@
 			)
 		)
 		(property "LCSC PN" "C108078"
-			(at 204.47 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" ""
 			(at 204.47 57.15 0)
 			(effects
 				(font
@@ -6863,15 +6710,6 @@
 				(hide yes)
 			)
 		)
-		(property "SnapEDA_Link" ""
-			(at 73.66 124.46 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "ed1b37ec-d191-4cfe-a68f-73b3fc3c7d8d")
 		)
@@ -7001,15 +6839,6 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 153.67 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" ""
 			(at 153.67 49.53 0)
 			(effects
 				(font
@@ -7160,15 +6989,6 @@
 				(hide yes)
 			)
 		)
-		(property "SnapEDA_Link" ""
-			(at 240.03 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "79631561-b3b9-41e4-a471-84c4d9d2ab5f")
 		)
@@ -7240,15 +7060,6 @@
 			)
 		)
 		(property "LCSC PN" "C191914"
-			(at 93.98 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" ""
 			(at 93.98 121.92 0)
 			(effects
 				(font
@@ -7537,15 +7348,6 @@
 			)
 		)
 		(property "LCSC PN" "C14663"
-			(at 214.63 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" ""
 			(at 214.63 115.57 0)
 			(effects
 				(font
@@ -7963,15 +7765,6 @@
 				(hide yes)
 			)
 		)
-		(property "SnapEDA_Link" ""
-			(at 85.09 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "7a19ea96-c692-4289-bfe6-31f69d32f945")
 		)
@@ -8117,15 +7910,6 @@
 				(hide yes)
 			)
 		)
-		(property "SnapEDA_Link" ""
-			(at 67.31 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "89242b29-b660-43af-b8d4-14bfd0f363c3")
 		)
@@ -8195,15 +7979,6 @@
 			)
 		)
 		(property "LCSC PN" "C185354"
-			(at 73.66 154.94 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" ""
 			(at 73.66 154.94 90)
 			(effects
 				(font
@@ -8349,15 +8124,6 @@
 			)
 		)
 		(property "LCSC PN" "C96446"
-			(at 121.92 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" ""
 			(at 121.92 115.57 0)
 			(effects
 				(font

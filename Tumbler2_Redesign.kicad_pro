@@ -576,12 +576,6 @@
         },
         {
           "group_by": false,
-          "label": "SnapEDA_Link",
-          "name": "SnapEDA_Link",
-          "show": false
-        },
-        {
-          "group_by": false,
           "label": "Sim.Pins",
           "name": "Sim.Pins",
           "show": false
