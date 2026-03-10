@@ -2310,7 +2310,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 115.57 127.9652 0)
 			(effects
 				(font
@@ -2455,7 +2455,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 51.1048 119.38 0)
 			(effects
 				(font
@@ -2534,7 +2534,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 171.1452 119.38 0)
 			(effects
 				(font
@@ -2561,7 +2561,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" "C2762594"
+		(property "LCSC PN" "C59461"
 			(at 170.18 115.57 0)
 			(effects
 				(font
@@ -2756,7 +2756,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 192.532 111.76 90)
 			(effects
 				(font
@@ -2783,7 +2783,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" "C114433"
+		(property "LCSC PN" "C23179"
 			(at 194.31 111.76 0)
 			(effects
 				(font
@@ -2912,7 +2912,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 123.4948 80.01 0)
 			(effects
 				(font
@@ -3337,7 +3337,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 155.9052 80.01 0)
 			(effects
 				(font
@@ -3364,7 +3364,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" "C2762594"
+		(property "LCSC PN" "C59461"
 			(at 154.94 76.2 0)
 			(effects
 				(font
@@ -3416,7 +3416,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 159.7152 119.38 0)
 			(effects
 				(font
@@ -3443,7 +3443,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" "C2762594"
+		(property "LCSC PN" "C59461"
 			(at 158.75 115.57 0)
 			(effects
 				(font
@@ -3971,7 +3971,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 147.0152 119.38 0)
 			(effects
 				(font
@@ -4050,7 +4050,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 194.31 120.65 0)
 			(effects
 				(font
@@ -4059,7 +4059,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C965804.pdf"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8639582106239348736"
 			(at 194.31 120.65 0)
 			(effects
 				(font
@@ -4086,7 +4086,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" "C965804"
+		(property "LCSC PN" "C2297"
 			(at 194.31 120.65 90)
 			(effects
 				(font
@@ -4415,7 +4415,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 179.07 78.74 0)
 			(effects
 				(font
@@ -4424,7 +4424,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C965804.pdf"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8639582106239348736"
 			(at 179.07 78.74 0)
 			(effects
 				(font
@@ -4451,7 +4451,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" "C965804"
+		(property "LCSC PN" "C2297"
 			(at 179.07 78.74 90)
 			(effects
 				(font
@@ -5044,7 +5044,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 65.0748 119.38 0)
 			(effects
 				(font
@@ -5321,7 +5321,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 177.292 69.85 90)
 			(effects
 				(font
@@ -5348,7 +5348,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" "C112310"
+		(property "LCSC PN" "C23228"
 			(at 179.07 69.85 0)
 			(effects
 				(font
