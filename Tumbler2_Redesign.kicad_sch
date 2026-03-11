@@ -222,10 +222,10 @@
 		(members "RXD" "TXD" "RTS" "DTR")
 	)
 	(bus_alias "USB1"
-		(members "DP" "DM")
+		(members "DP_1" "DN_1")
 	)
 	(bus_alias "USB2"
-		(members "DP" "DM")
+		(members "DP_2" "DN_2")
 	)
 	(circle
 		(center 97.79 123.19)
@@ -1964,26 +1964,6 @@
 				(justify right)
 			)
 		)
-		(pin "{MOT1}" bidirectional
-			(at 198.12 102.87 0)
-			(uuid "15a7f226-32c9-4bb1-b8c9-3b27c057022c")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "{MOT2}" bidirectional
-			(at 198.12 106.68 0)
-			(uuid "e2fffe30-488f-410c-8cf1-62068955a929")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "RGB" output
 			(at 198.12 121.92 0)
 			(uuid "b2641336-dada-461b-90c8-dc08572e020e")
@@ -1997,6 +1977,26 @@
 		(pin "INT1" input
 			(at 198.12 90.17 0)
 			(uuid "7bfdce58-9e0e-4f10-898d-2cc40153b715")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "{MOT_A}" bidirectional
+			(at 198.12 102.87 0)
+			(uuid "8cf5b732-67db-4383-8e40-b6d1dcad1a83")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "{MOT_B}" bidirectional
+			(at 198.12 106.68 0)
+			(uuid "2e86ef59-312b-4616-8ffb-dfe8e723fb52")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2203,29 +2203,29 @@
 				(justify left)
 			)
 		)
-		(pin "{MOT1}" input
-			(at 210.82 102.87 180)
-			(uuid "6f8be8c5-bb5a-4dbb-a15e-335e95409eb5")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "{MOT2}" input
-			(at 210.82 106.68 180)
-			(uuid "43ec37c2-16b6-429e-a0f6-e8542adccdb5")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "INT1" output
 			(at 210.82 90.17 180)
 			(uuid "07c4a47f-5f69-49ed-b243-d0bb684f9144")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "{MOT_A}" input
+			(at 210.82 102.87 180)
+			(uuid "664a76ea-9547-4fba-b731-16353736d3d1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "{MOT_B}" input
+			(at 210.82 106.68 180)
+			(uuid "a6b1b783-58a3-4741-a312-ca1124132571")
 			(effects
 				(font
 					(size 1.27 1.27)
