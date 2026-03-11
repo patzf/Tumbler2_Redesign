@@ -3524,7 +3524,7 @@
 		)
 		(uuid "b7a4944b-2ec1-4c94-ac46-a279d90798d9")
 	)
-	(hierarchical_label "INT"
+	(hierarchical_label "INT1"
 		(shape output)
 		(at 156.21 52.07 0)
 		(effects
