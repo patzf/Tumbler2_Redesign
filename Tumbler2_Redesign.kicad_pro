@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.5
+          "min_clearance": 0.25
         }
       },
       "diff_pair_dimensions": [
@@ -188,9 +188,12 @@
       ],
       "track_widths": [
         0.0,
+        0.127,
         0.254,
         0.381,
-        0.508
+        0.508,
+        0.8,
+        1.0
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -509,7 +512,7 @@
       },
       {
         "bus_width": 12,
-        "clearance": 0.254,
+        "clearance": 0.4,
         "diff_pair_gap": 0.105,
         "diff_pair_width": 0.32,
         "line_style": 0,
@@ -519,7 +522,7 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 1.0,
+        "track_width": 0.1,
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
@@ -570,6 +573,22 @@
       {
         "netclass": "PWR",
         "pattern": "GND"
+      },
+      {
+        "netclass": "PWR",
+        "pattern": "/Peripherals/M1_P"
+      },
+      {
+        "netclass": "PWR",
+        "pattern": "/Peripherals/M1_N"
+      },
+      {
+        "netclass": "PWR",
+        "pattern": "/Peripherals/M2_P"
+      },
+      {
+        "netclass": "PWR",
+        "pattern": "/Peripherals/M2_N"
       }
     ]
   },

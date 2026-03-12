@@ -3267,7 +3267,7 @@
 		)
 		(uuid "1106264b-26fe-4576-b456-f4bebce056a1")
 	)
-	(label "M2_M"
+	(label "M2_N"
 		(at 200.66 121.92 180)
 		(effects
 			(font
@@ -3277,7 +3277,7 @@
 		)
 		(uuid "1c743f99-4ed1-4d29-84d0-2bb7856c12f2")
 	)
-	(label "M2_M"
+	(label "M2_N"
 		(at 81.28 160.02 0)
 		(effects
 			(font
@@ -3387,7 +3387,7 @@
 		)
 		(uuid "a3ba6e7d-ef9d-4571-9f5b-6431655e8d6d")
 	)
-	(label "M1_M"
+	(label "M1_N"
 		(at 81.28 129.54 0)
 		(effects
 			(font
@@ -3397,7 +3397,7 @@
 		)
 		(uuid "b5dc4d0f-a597-4194-a31b-ba2cbeb043ca")
 	)
-	(label "M1_M"
+	(label "M1_N"
 		(at 200.66 114.3 180)
 		(effects
 			(font
@@ -5068,7 +5068,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm"
 			(at 219.71 48.26 0)
 			(effects
 				(font
@@ -5855,7 +5855,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm"
 			(at 199.39 48.26 0)
 			(effects
 				(font
@@ -6820,7 +6820,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm"
 			(at 158.75 49.53 0)
 			(effects
 				(font
