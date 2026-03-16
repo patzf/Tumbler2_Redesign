@@ -548,19 +548,11 @@
       },
       {
         "netclass": "USB",
-        "pattern": "/MCU/DP_1"
+        "pattern": "/MCU/DP"
       },
       {
         "netclass": "USB",
-        "pattern": "/MCU/DN_1"
-      },
-      {
-        "netclass": "USB",
-        "pattern": "/MCU/DP_2"
-      },
-      {
-        "netclass": "USB",
-        "pattern": "/MCU/DN_2"
+        "pattern": "/MCU/DN"
       },
       {
         "netclass": "PWR",

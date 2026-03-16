@@ -16,12 +16,8 @@ This redesign focuses on:
 
 | Original Design                      | Redesign Improvement                             |
 | ------------------------------------ | ------------------------------------------------ |
-| VBAT to 5 V LDO regulator            | VBAT to 5 V buck converter (higher efficiency)   |
 | 5 V to 3.3 V LDO regulator           | 5 V to 3.3 V buck converter                      |
-| CH340 USB-UART bridge                | CP2102 USB-UART bridge                           |
 | 5 V ECHO signal directly to ESP32    | Voltage divider to 3.3 V ESP32 GPIO              |
-| Single USB-C (UART only)             | Dual USB-C (UART + native USB)                   |
-| Schottky diode reverse protection    | Ideal diode reverse protection                   |
 | No local decoupling for WS2812B LEDs | Added proper local bypass capacitors for WS2812B |
 | 100 nF capacitors on BTN and GPIO0   | Removed unnecessary capacitors on BTN and GPIO0  |
 

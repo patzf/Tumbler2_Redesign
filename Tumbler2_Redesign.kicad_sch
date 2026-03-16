@@ -221,11 +221,8 @@
 	(bus_alias "UART"
 		(members "RXD" "TXD" "RTS" "DTR")
 	)
-	(bus_alias "USB1"
-		(members "DP_1" "DN_1")
-	)
-	(bus_alias "USB2"
-		(members "DP_2" "DN_2")
+	(bus_alias "USB"
+		(members "DP" "DN")
 	)
 	(circle
 		(center 97.79 123.19)
@@ -332,19 +329,6 @@
 		(uuid e5610902-3135-4b34-a501-67d33f421fef)
 	)
 	(circle
-		(center 82.55 73.914)
-		(radius 0.5142)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill
-			(type color)
-			(color 0 0 194 1)
-		)
-		(uuid e964fd1c-9b75-4f01-8022-53dd324db609)
-	)
-	(circle
 		(center 97.79 104.14)
 		(radius 0.5142)
 		(stroke
@@ -369,17 +353,6 @@
 			(color 0 0 194 1)
 		)
 		(uuid f5c16ef4-a995-4e66-97eb-00e7cbaa5539)
-	)
-	(text "VBUSB"
-		(exclude_from_sim no)
-		(at 52.07 72.644 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "0fb2b23c-0bcd-46c8-9644-f3dab54e0695")
 	)
 	(text "VBUS"
 		(exclude_from_sim no)
@@ -458,6 +431,25 @@
 		)
 		(uuid "fbfb4db4-5d1c-441f-8eb5-1febbf11b64d")
 	)
+	(text_box "Diode -|>-"
+		(exclude_from_sim no)
+		(at 86.36 71.12 0)
+		(size 15.24 5.08)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "33649063-43cd-49b6-a21a-96971393bc83")
+	)
 	(text_box "Motor Encoder"
 		(exclude_from_sim no)
 		(at 72.39 107.95 0)
@@ -515,25 +507,6 @@
 		)
 		(uuid "41e402c2-bde3-416d-9c1b-d2537aeae8db")
 	)
-	(text_box "Ideal Diode -|>-"
-		(exclude_from_sim no)
-		(at 86.36 71.12 0)
-		(size 15.24 5.08)
-		(margins 0.9525 0.9525 0.9525 0.9525)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "8ff077ed-b8a8-46d0-8c80-1f5865ef8c59")
-	)
 	(text_box "Pin Header\n"
 		(exclude_from_sim no)
 		(at 72.39 133.35 0)
@@ -571,25 +544,6 @@
 			)
 		)
 		(uuid "a0ccfaca-7f4c-4cdf-b0df-c5b57fa950d3")
-	)
-	(text_box "Ideal Diode -|>-"
-		(exclude_from_sim no)
-		(at 63.5 71.374 0)
-		(size 15.24 5.08)
-		(margins 0.9525 0.9525 0.9525 0.9525)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "ad1c337a-dfe7-41b5-b226-a6bc8993db2c")
 	)
 	(text_box "Pin Header"
 		(exclude_from_sim no)
@@ -686,7 +640,7 @@
 		)
 		(uuid "c2a6a652-ce29-4ba2-8ba5-2eb5d8105ecb")
 	)
-	(text_box "Ideal Diode -|>-"
+	(text_box "Diode -|>-"
 		(exclude_from_sim no)
 		(at 63.5 63.5 0)
 		(size 15.24 5.08)
@@ -743,7 +697,7 @@
 		)
 		(uuid "d8d4a1f6-0416-4da9-9f90-c7855186e977")
 	)
-	(text_box "Ideal Diode -<|-"
+	(text_box "Diode -<|-"
 		(exclude_from_sim no)
 		(at 86.36 63.5 0)
 		(size 15.24 5.08)
@@ -809,16 +763,6 @@
 			(type default)
 		)
 		(uuid "0716316f-fa97-4b69-bf50-ecb87a28324f")
-	)
-	(polyline
-		(pts
-			(xy 52.07 73.66) (xy 63.5 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0ec0fe04-685b-4c3d-8b36-6ac58061b2cf")
 	)
 	(polyline
 		(pts
@@ -1080,16 +1024,6 @@
 		)
 		(uuid "b4fcf6e9-1225-4cc3-834d-6d0bd8327cce")
 	)
-	(wire
-		(pts
-			(xy 198.12 110.49) (xy 210.82 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ba7a2ca9-3dd4-454c-aa78-9265b7679506")
-	)
 	(polyline
 		(pts
 			(xy 52.07 66.04) (xy 63.5 66.04)
@@ -1119,16 +1053,6 @@
 			(type default)
 		)
 		(uuid "c48191bf-89e5-405f-95df-533f09f99c6e")
-	)
-	(polyline
-		(pts
-			(xy 78.74 73.914) (xy 82.55 73.914)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c90fb67b-5aea-4860-a50e-232a4eeefa67")
 	)
 	(polyline
 		(pts
@@ -1199,16 +1123,6 @@
 			(type default)
 		)
 		(uuid "dd4217a8-00cf-485e-9f50-e3bb9e8a05f4")
-	)
-	(bus
-		(pts
-			(xy 165.1 88.9) (xy 177.8 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "df4c6263-4294-4eb6-9f44-d7d24a4cb074")
 	)
 	(bus
 		(pts
@@ -1904,36 +1818,6 @@
 				(hide yes)
 			)
 		)
-		(pin "STBY" output
-			(at 198.12 110.49 0)
-			(uuid "d4953c65-6aaa-4614-bbc6-04daad29a32a")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "{USB1}" bidirectional
-			(at 177.8 82.55 180)
-			(uuid "8a7ba02a-dcbf-4259-889f-83db37ee872f")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "{USB2}" bidirectional
-			(at 177.8 88.9 180)
-			(uuid "4080b7f7-b743-4af5-8d77-8fdf6ba4e52f")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "ECHO" input
 			(at 198.12 86.36 0)
 			(uuid "2c9b5180-d8e7-49df-88c2-252693b62b55")
@@ -2004,6 +1888,16 @@
 				(justify right)
 			)
 		)
+		(pin "{USB}" bidirectional
+			(at 177.8 82.55 180)
+			(uuid "1ab215e4-ce78-441a-83ef-d15512458bc5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "Tumbler2_Redesign"
 				(path "/f3fd8d79-9d35-4c04-811e-2697a2740958"
@@ -2014,7 +1908,7 @@
 	)
 	(sheet
 		(at 144.78 78.74)
-		(size 20.32 13.97)
+		(size 20.32 7.62)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2038,7 +1932,7 @@
 			)
 		)
 		(property "Sheetfile" "usb_c_connector.kicad_sch"
-			(at 144.78 93.2946 0)
+			(at 144.78 86.9446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2047,19 +1941,9 @@
 				(hide yes)
 			)
 		)
-		(pin "{USB1}" bidirectional
+		(pin "{USB}" bidirectional
 			(at 165.1 82.55 0)
-			(uuid "bfddd0eb-44a5-4997-a8f4-a3441347efe7")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "{USB2}" bidirectional
-			(at 165.1 88.9 0)
-			(uuid "6c22e4ab-639f-4d4c-b95b-27f383f80cc1")
+			(uuid "f663b1b0-be92-4694-9fc8-292a7fd24228")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2130,7 +2014,7 @@
 	)
 	(sheet
 		(at 210.82 78.74)
-		(size 19.05 35.56)
+		(size 19.05 31.75)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2154,7 +2038,7 @@
 			)
 		)
 		(property "Sheetfile" "peripherals.kicad_sch"
-			(at 210.82 114.8846 0)
+			(at 210.82 111.0746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2166,16 +2050,6 @@
 		(pin "ECHO" output
 			(at 210.82 86.36 180)
 			(uuid "38cb748a-8417-4ed3-8d73-26d4d792dd8c")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "STBY" input
-			(at 210.82 110.49 180)
-			(uuid "bebfc16c-2fe3-423e-825d-8d5c66c45aa2")
 			(effects
 				(font
 					(size 1.27 1.27)
