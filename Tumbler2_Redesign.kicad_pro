@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.25
+          "min_clearance": 0.15
         }
       },
       "diff_pair_dimensions": [
@@ -192,6 +192,7 @@
         0.254,
         0.381,
         0.508,
+        0.6,
         0.8,
         1.0
       ],
@@ -245,7 +246,16 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "pin_to_pin|1104900|508000|9bfced80-d93d-4c5d-a78f-c12d56009fc3|4bf1df64-6620-42c6-a382-bde543878d5e|/f3fd8d79-9d35-4c04-811e-2697a2740958/f8585a58-8128-4c19-a894-5097be4fe7b3|/f3fd8d79-9d35-4c04-811e-2697a2740958/f8585a58-8128-4c19-a894-5097be4fe7b3|/f3fd8d79-9d35-4c04-811e-2697a2740958/003ca151-4f76-4d52-861b-70be86047379",
+        "Sets I2C address"
+      ],
+      [
+        "power_pin_not_driven|2476500|1371600|5ed53593-aa5a-475a-91a2-ec1d2b6a1a98|00000000-0000-0000-0000-000000000000|/f3fd8d79-9d35-4c04-811e-2697a2740958|/f3fd8d79-9d35-4c04-811e-2697a2740958|",
+        "Mounting Hole"
+      ]
+    ],
     "meta": {
       "version": 0
     },
