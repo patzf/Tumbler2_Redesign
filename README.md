@@ -12,7 +12,7 @@ This redesign focuses on:
 - Retaining the original components where possible
 - Increased expandability
 
-# Changes
+## Changes
 
 | Original Design                      | Redesign Improvement                             |
 | ------------------------------------ | ------------------------------------------------ |
@@ -21,9 +21,15 @@ This redesign focuses on:
 | No local decoupling for WS2812B LEDs | Added proper local bypass capacitors for WS2812B |
 | 100 nF capacitors on BTN and GPIO0   | Removed unnecessary capacitors on BTN and GPIO0  |
 
-# Discarded Ideas
+## Discarded Ideas
 
 | Idea                                            | Reason                                                    |
 | ----------------------------------------------- | --------------------------------------------------------- |
 | On-board charging circuit (IP5306, BQ25887RGER) | Not required. External USB charger included with battery  |
 | Additional LDO for clean 3.3 V rail             | Not necessary. ESP32-WROOM internal VCC/VCCA already tied |
+
+## Layout Options
+
+| Layout A                                                                         | Layout B                                                                         | Layout C                                                                         |
+| -------------------------------------------------------------------------------- | -------------------------------------------------------------------------------- | -------------------------------------------------------------------------------- |
+| <img src="assets/Layout_Option_A.png" width="260"><br><sub>Compact routing</sub> | <img src="assets/Layout_Option_B.png" width="260"><br><sub>Balanced layout</sub> | <img src="assets/Layout_Option_C.png" width="260"><br><sub>Best separation</sub> |
