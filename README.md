@@ -30,6 +30,6 @@ This redesign focuses on:
 
 ## Layout Options
 
-| Layout A                                                                         | Layout B                                                                         | Layout C                                                                         |
-| -------------------------------------------------------------------------------- | -------------------------------------------------------------------------------- | -------------------------------------------------------------------------------- |
-| <img src="assets/Layout_Option_A.png" width="260"><br><sub>Compact routing</sub> | <img src="assets/Layout_Option_B.png" width="260"><br><sub>Balanced layout</sub> | <img src="assets/Layout_Option_C.png" width="260"><br><sub>Best separation</sub> |
+| Layout A                                                                          | Layout B                                                                               | Layout C                                                                             |
+| --------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------ |
+| <img src="assets/Layout_Option_A.png" width="260"><br><sub>Preferred option</sub> | <img src="assets/Layout_Option_B.png" width="260"><br><sub>Left–right separation</sub> | <img src="assets/Layout_Option_C.png" width="260"><br><sub>Looser version of B</sub> |
