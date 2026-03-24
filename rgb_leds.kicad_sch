@@ -1509,7 +1509,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "17622346-e4d9-4221-86f9-aa4f04846d4f")
-		(property "Reference" "R36"
+		(property "Reference" "R28"
 			(at 88.9 74.9299 0)
 			(effects
 				(font
@@ -1581,7 +1581,7 @@
 		(instances
 			(project "Tumbler2_Redesign"
 				(path "/f3fd8d79-9d35-4c04-811e-2697a2740958/8522accb-b87e-46d8-a11d-cbf6de0eac35"
-					(reference "R36")
+					(reference "R28")
 					(unit 1)
 				)
 			)
