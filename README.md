@@ -20,4 +20,4 @@ To balance BOM size, cost, and feature requirements, the redesign is split into 
 | ---------------- | ------------------------------------------------------------ | --------- |
 | `fix-only`       | Drop-in replacement using original components where possible | In Design |
 | `low-cost`       | Cost-reduced BOM with two USB ports                          | In Design |
-| `ultra-low-cost` | Single USB port, maximum cost reduction                      | Layouting |
+| `ultra-low-cost` | Single USB port, maximum cost reduction                      | Review    |
