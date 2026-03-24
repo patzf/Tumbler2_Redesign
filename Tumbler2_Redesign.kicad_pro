@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.2
+          "min_clearance": 0.15
         }
       },
       "diff_pair_dimensions": [
@@ -58,7 +58,12 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "clearance|129482000|128512000|071a9021-f9da-4a77-89c3-b4603df282fa|93ddbde4-7091-4630-860c-cdcc3d4ff83e",
+          "From diff pair"
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -131,10 +136,10 @@
         "min_hole_to_hole": 0.2,
         "min_microvia_diameter": 0.2,
         "min_microvia_drill": 0.1,
-        "min_resolved_spokes": 2,
+        "min_resolved_spokes": 1,
         "min_silk_clearance": 0.0,
         "min_text_height": 1.0,
-        "min_text_thickness": 0.153,
+        "min_text_thickness": 0.1524,
         "min_through_hole_diameter": 0.15,
         "min_track_width": 0.1,
         "min_via_annular_width": 0.1,
