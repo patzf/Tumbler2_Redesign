@@ -5,6 +5,314 @@
 	(uuid "cda13d9e-e0ba-4dd6-bf0f-3d316c32335b")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Conn_01x06_1"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J6"
+				(at 2.286 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Conn_01x06"
+				(at 2.54 -2.5399 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "Connector_JST:JST_XH_S6B-XH-SM4-TB_1x06-1MP_P2.50mm_Horizontal"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC PN" "C191914"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Device" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x06_1_1_1"
+				(rectangle
+					(start -1.2909 -7.4785)
+					(end -0.0209 -7.7325)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 8.89)
+					(end 1.27 -8.89)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 7.747)
+					(end 0 7.493)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 5.207)
+					(end 0 4.953)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 7.62 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 5.08 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -7.62 0)
+					(length 3.81)
+					(name "MP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector:TestPoint"
 			(pin_numbers
 				(hide yes)
@@ -320,23 +628,26 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "J"
-				(at 0 7.62 0)
+			(property "Reference" "J7"
+				(at 2.286 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
 			(property "Value" "Conn_01x06"
-				(at 0 -10.16 0)
+				(at 2.54 -2.5399 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
+					(hide yes)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Connector_JST:JST_XH_S6B-XH-SM4-TB_1x06-1MP_P2.50mm_Horizontal"
 				(at 0 0 0)
 				(effects
 					(font
@@ -345,7 +656,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Datasheet" "https://www.lcsc.com/datasheet/C191914.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -354,7 +665,25 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(property "Description" "Connector Header 6 position 2.5mm Pitch 3A Surface Mount, Right Angle -25℃~+85℃"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC PN" "C191914"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Device" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -383,7 +712,18 @@
 			)
 			(symbol "Conn_01x06_1_1"
 				(rectangle
-					(start -1.27 6.35)
+					(start -1.2741 -7.4831)
+					(end -0.0041 -7.7371)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 8.89)
 					(end 1.27 -8.89)
 					(stroke
 						(width 0.254)
@@ -391,6 +731,17 @@
 					)
 					(fill
 						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 7.747)
+					(end 0 7.493)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
 					)
 				)
 				(rectangle
@@ -448,19 +799,8 @@
 						(type none)
 					)
 				)
-				(rectangle
-					(start -1.27 -7.493)
-					(end 0 -7.747)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
 				(pin passive line
-					(at -5.08 5.08 0)
+					(at -5.08 7.62 0)
 					(length 3.81)
 					(name "Pin_1"
 						(effects
@@ -478,7 +818,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 2.54 0)
+					(at -5.08 5.08 0)
 					(length 3.81)
 					(name "Pin_2"
 						(effects
@@ -496,7 +836,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 0 0)
+					(at -5.08 2.54 0)
 					(length 3.81)
 					(name "Pin_3"
 						(effects
@@ -514,7 +854,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -2.54 0)
+					(at -5.08 0 0)
 					(length 3.81)
 					(name "Pin_4"
 						(effects
@@ -532,7 +872,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -5.08 0)
+					(at -5.08 -2.54 0)
 					(length 3.81)
 					(name "Pin_5"
 						(effects
@@ -550,7 +890,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -7.62 0)
+					(at -5.08 -5.08 0)
 					(length 3.81)
 					(name "Pin_6"
 						(effects
@@ -560,6 +900,24 @@
 						)
 					)
 					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -7.62 0)
+					(length 3.81)
+					(name "MP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MP"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3557,7 +3915,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0dc2c4db-f82a-4df3-a683-972e37475034")
-		(property "Reference" "#PWR097"
+		(property "Reference" "#PWR098"
 			(at 67.31 139.7 0)
 			(effects
 				(font
@@ -3607,7 +3965,74 @@
 		(instances
 			(project "Tumbler2_Redesign"
 				(path "/f3fd8d79-9d35-4c04-811e-2697a2740958/f8585a58-8128-4c19-a894-5097be4fe7b3"
-					(reference "#PWR097")
+					(reference "#PWR098")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 88.9 132.08 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1e22e214-7abd-4925-ab29-3baea9e375b8")
+		(property "Reference" "#PWR096"
+			(at 82.55 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 85.09 132.0799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 88.9 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.9 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 88.9 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "516e8318-502d-44fb-b702-30b336e7bccd")
+		)
+		(instances
+			(project "Tumbler2_Redesign"
+				(path "/f3fd8d79-9d35-4c04-811e-2697a2740958/f8585a58-8128-4c19-a894-5097be4fe7b3"
+					(reference "#PWR096")
 					(unit 1)
 				)
 			)
@@ -4079,7 +4504,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2e36ddcf-ced7-48a6-ac0d-f492b33efa3a")
-		(property "Reference" "#PWR0100"
+		(property "Reference" "#PWR0102"
 			(at 54.61 170.18 0)
 			(effects
 				(font
@@ -4129,7 +4554,7 @@
 		(instances
 			(project "Tumbler2_Redesign"
 				(path "/f3fd8d79-9d35-4c04-811e-2697a2740958/f8585a58-8128-4c19-a894-5097be4fe7b3"
-					(reference "#PWR0100")
+					(reference "#PWR0102")
 					(unit 1)
 				)
 			)
@@ -4589,7 +5014,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "50c13ced-235c-42d4-8ba0-e493ad1939af")
-		(property "Reference" "#PWR0101"
+		(property "Reference" "#PWR0103"
 			(at 67.31 170.18 0)
 			(effects
 				(font
@@ -4639,7 +5064,7 @@
 		(instances
 			(project "Tumbler2_Redesign"
 				(path "/f3fd8d79-9d35-4c04-811e-2697a2740958/f8585a58-8128-4c19-a894-5097be4fe7b3"
-					(reference "#PWR0101")
+					(reference "#PWR0103")
 					(unit 1)
 				)
 			)
@@ -4888,7 +5313,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x06")
-		(at 93.98 152.4 0)
+		(at 93.98 154.94 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4896,7 +5321,7 @@
 		(dnp no)
 		(uuid "5ffb3c5d-93fd-4281-83d6-e639f9eb48ad")
 		(property "Reference" "J7"
-			(at 96.52 152.3999 0)
+			(at 96.266 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4905,7 +5330,7 @@
 			)
 		)
 		(property "Value" "Conn_01x06"
-			(at 96.52 154.9399 0)
+			(at 96.52 157.4799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4915,7 +5340,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_XH_S6B-XH-SM4-TB_1x06-1MP_P2.50mm_Horizontal"
-			(at 93.98 152.4 0)
+			(at 93.98 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4924,7 +5349,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C191914.pdf"
-			(at 93.98 152.4 0)
+			(at 93.98 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4933,7 +5358,7 @@
 			)
 		)
 		(property "Description" "Connector Header 6 position 2.5mm Pitch 3A Surface Mount, Right Angle -25℃~+85℃"
-			(at 93.98 152.4 0)
+			(at 93.98 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4942,7 +5367,7 @@
 			)
 		)
 		(property "LCSC PN" "C191914"
-			(at 93.98 152.4 0)
+			(at 93.98 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4951,7 +5376,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 93.98 152.4 0)
+			(at 93.98 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4976,6 +5401,9 @@
 		)
 		(pin "6"
 			(uuid "fe20d120-0fb1-494d-935b-3e40337189ca")
+		)
+		(pin "MP"
+			(uuid "d200f765-d3e0-48ad-b467-b94dd9ed16c1")
 		)
 		(instances
 			(project "Tumbler2_Redesign"
@@ -5654,7 +6082,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "93a4e347-330d-42a8-aa7c-e9e30897ce40")
-		(property "Reference" "#PWR098"
+		(property "Reference" "#PWR099"
 			(at 82.55 149.86 0)
 			(effects
 				(font
@@ -5705,7 +6133,7 @@
 		(instances
 			(project "Tumbler2_Redesign"
 				(path "/f3fd8d79-9d35-4c04-811e-2697a2740958/f8585a58-8128-4c19-a894-5097be4fe7b3"
-					(reference "#PWR098")
+					(reference "#PWR099")
 					(unit 1)
 				)
 			)
@@ -6131,6 +6559,73 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 88.9 162.56 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a82e9e69-a05d-4626-b9f6-6a365cdd452d")
+		(property "Reference" "#PWR0101"
+			(at 82.55 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 85.09 162.5599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 88.9 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.9 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 88.9 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9155c61d-b66c-4753-8a52-78542b12c567")
+		)
+		(instances
+			(project "Tumbler2_Redesign"
+				(path "/f3fd8d79-9d35-4c04-811e-2697a2740958/f8585a58-8128-4c19-a894-5097be4fe7b3"
+					(reference "#PWR0101")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 162.56 116.84 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6500,7 +6995,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c0e8f956-f560-4a56-89a3-2bb901881022")
-		(property "Reference" "#PWR096"
+		(property "Reference" "#PWR097"
 			(at 54.61 139.7 0)
 			(effects
 				(font
@@ -6550,7 +7045,7 @@
 		(instances
 			(project "Tumbler2_Redesign"
 				(path "/f3fd8d79-9d35-4c04-811e-2697a2740958/f8585a58-8128-4c19-a894-5097be4fe7b3"
-					(reference "#PWR096")
+					(reference "#PWR097")
 					(unit 1)
 				)
 			)
@@ -6711,8 +7206,9 @@
 		)
 	)
 	(symbol
+		(lib_name "Conn_01x06_1")
 		(lib_id "Connector_Generic:Conn_01x06")
-		(at 93.98 121.92 0)
+		(at 93.98 124.46 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6720,7 +7216,7 @@
 		(dnp no)
 		(uuid "caf6fcf4-2d43-4aaa-aaaf-b58b976712ae")
 		(property "Reference" "J6"
-			(at 96.52 121.9199 0)
+			(at 96.266 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6729,7 +7225,7 @@
 			)
 		)
 		(property "Value" "Conn_01x06"
-			(at 96.52 124.4599 0)
+			(at 96.52 126.9999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6739,7 +7235,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_XH_S6B-XH-SM4-TB_1x06-1MP_P2.50mm_Horizontal"
-			(at 93.98 121.92 0)
+			(at 93.98 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6747,8 +7243,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C191914.pdf"
-			(at 93.98 121.92 0)
+		(property "Datasheet" "~"
+			(at 93.98 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6756,8 +7252,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Connector Header 6 position 2.5mm Pitch 3A Surface Mount, Right Angle -25℃~+85℃"
-			(at 93.98 121.92 0)
+		(property "Description" "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 93.98 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6766,7 +7262,7 @@
 			)
 		)
 		(property "LCSC PN" "C191914"
-			(at 93.98 121.92 0)
+			(at 93.98 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6775,7 +7271,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 93.98 121.92 0)
+			(at 93.98 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6800,6 +7296,9 @@
 		)
 		(pin "6"
 			(uuid "f5aba96c-f2fd-43de-8ce0-0e2b5d264b78")
+		)
+		(pin "MP"
+			(uuid "b47c7355-0f8e-4381-8092-997d49463f17")
 		)
 		(instances
 			(project "Tumbler2_Redesign"
@@ -7851,7 +8350,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fad9b724-a446-41a1-8918-2232a98b1017")
-		(property "Reference" "#PWR099"
+		(property "Reference" "#PWR0100"
 			(at 92.71 157.48 0)
 			(effects
 				(font
@@ -7902,7 +8401,7 @@
 		(instances
 			(project "Tumbler2_Redesign"
 				(path "/f3fd8d79-9d35-4c04-811e-2697a2740958/f8585a58-8128-4c19-a894-5097be4fe7b3"
-					(reference "#PWR099")
+					(reference "#PWR0100")
 					(unit 1)
 				)
 			)

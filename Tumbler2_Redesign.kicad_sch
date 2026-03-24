@@ -290,19 +290,6 @@
 		(uuid d245abff-3d5f-4ced-b069-99303650aeac)
 	)
 	(circle
-		(center 63.5 130.81)
-		(radius 0.5142)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill
-			(type color)
-			(color 0 0 194 1)
-		)
-		(uuid e5610902-3135-4b34-a501-67d33f421fef)
-	)
-	(circle
 		(center 63.5 99.06)
 		(radius 0.5142)
 		(stroke
@@ -314,6 +301,17 @@
 			(color 0 0 194 1)
 		)
 		(uuid f5c16ef4-a995-4e66-97eb-00e7cbaa5539)
+	)
+	(text "TODO:\nVerify output voltage levels for HC-SR04 (ECHO pin) and motor encoder\n	Confirm whether logic HIGH is 5V, 3.3V, or lower (~2V possible)\nCheck whether 5V or 3.3V HC-SR04 variant is used in current robots\nMeasure actual PCB mounting hole positions\nVerify pin header pinout for line sensor PCB (B2B module)"
+		(exclude_from_sim no)
+		(at 23.368 28.956 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "055f5f5e-a38e-4478-968f-86ecf64299f0")
 	)
 	(text "VBUS"
 		(exclude_from_sim no)
@@ -361,7 +359,7 @@
 	)
 	(text "VBAT"
 		(exclude_from_sim no)
-		(at 58.42 129.794 0)
+		(at 58.42 127.254 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -468,28 +466,9 @@
 		)
 		(uuid "41e402c2-bde3-416d-9c1b-d2537aeae8db")
 	)
-	(text_box "Pin Header\n"
-		(exclude_from_sim no)
-		(at 67.31 134.62 0)
-		(size 15.24 5.08)
-		(margins 0.9525 0.9525 0.9525 0.9525)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "9ea6753c-a121-4230-aa86-8d93063e11af")
-	)
 	(text_box "Motor Driver"
 		(exclude_from_sim no)
-		(at 67.31 128.27 0)
+		(at 67.31 125.73 0)
 		(size 15.24 5.08)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -860,16 +839,6 @@
 	)
 	(polyline
 		(pts
-			(xy 63.5 137.16) (xy 67.31 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "886272a5-0b5a-4815-bfd2-649f36ed4e72")
-	)
-	(polyline
-		(pts
 			(xy 63.5 105.41) (xy 67.31 105.41)
 		)
 		(stroke
@@ -917,16 +886,6 @@
 			(type default)
 		)
 		(uuid "af88a415-8ec8-41e7-b5ea-c4e18ef71426")
-	)
-	(polyline
-		(pts
-			(xy 63.5 130.81) (xy 63.5 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b4fcf6e9-1225-4cc3-834d-6d0bd8327cce")
 	)
 	(polyline
 		(pts
@@ -1050,7 +1009,7 @@
 	)
 	(polyline
 		(pts
-			(xy 58.42 130.81) (xy 67.31 130.81)
+			(xy 58.42 128.27) (xy 67.31 128.27)
 		)
 		(stroke
 			(width 0)
