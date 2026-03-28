@@ -5,8 +5,11 @@
 	(uuid "a69e17bf-1590-4398-88d8-6fc415a0aaaf")
 	(paper "A4")
 	(title_block
-		(title "Tumbler 2 Redesign")
-		(rev "1.0")
+		(title "${TITLE}")
+		(rev "${REVISION}")
+		(company "${COMPANY}")
+		(comment 1 "${AUTHOR1}, ${AUTHOR2}, ${AUTHOR3} ")
+		(comment 2 "Stefan Kummer")
 	)
 	(lib_symbols
 		(symbol "Connector:TestPoint"
@@ -2413,6 +2416,16 @@
 		)
 		(uuid "f5537806-6c1e-48c8-8c7e-90e70b66dbf3")
 	)
+	(wire
+		(pts
+			(xy 170.18 68.58) (xy 167.64 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb77d339-b48f-4eb2-b75a-b70ae72a731c")
+	)
 	(symbol
 		(lib_id "Device:C")
 		(at 119.38 127 270)
@@ -2655,16 +2668,16 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 170.18 115.57 0)
+		(at 158.75 115.57 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "124c0217-b2c8-428b-bc30-4414ba3004c3")
-		(property "Reference" "C7"
-			(at 173.99 114.2999 0)
+		(uuid "10c875cd-4d91-4151-aee7-719c4aa9da4f")
+		(property "Reference" "C6"
+			(at 162.56 114.2999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2673,7 +2686,7 @@
 			)
 		)
 		(property "Value" "22uF"
-			(at 173.99 116.8399 0)
+			(at 162.56 116.8399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2681,8 +2694,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 171.1452 119.38 0)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 159.7152 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2691,7 +2704,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 170.18 115.57 0)
+			(at 158.75 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2699,8 +2712,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 170.18 115.57 0)
+		(property "Description" "X5R ±20% 0805 MLCC"
+			(at 158.75 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2708,8 +2721,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" "C59461"
-			(at 170.18 115.57 0)
+		(property "LCSC PN" "C45783"
+			(at 158.75 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2718,7 +2731,16 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 170.18 115.57 0)
+			(at 158.75 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 158.75 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2727,15 +2749,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "c3eea340-be93-4950-84ca-a785b8ccde62")
+			(uuid "10500d8c-65e4-4679-afa2-953b69a233dd")
 		)
 		(pin "2"
-			(uuid "044df5c1-0d5a-428b-a95d-3d730e1ce432")
+			(uuid "2cbd970d-a579-473f-8523-daa7c74936cd")
 		)
 		(instances
 			(project "Tumbler2_Redesign"
 				(path "/f3fd8d79-9d35-4c04-811e-2697a2740958/003ca151-4f76-4d52-861b-70be86047379"
-					(reference "C7")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -3062,94 +3084,6 @@
 			(project ""
 				(path "/f3fd8d79-9d35-4c04-811e-2697a2740958/003ca151-4f76-4d52-861b-70be86047379"
 					(reference "D1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 124.46 76.2 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2dbf5642-985f-4011-827c-2ff3e7d981cc")
-		(property "Reference" "C1"
-			(at 120.65 74.9299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10uF"
-			(at 120.65 77.4699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 123.4948 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 124.46 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 124.46 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC PN" "C96446"
-			(at 124.46 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 124.46 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0b98c624-a29d-4444-80b7-6a7f28c66686")
-		)
-		(pin "2"
-			(uuid "f4ef95d7-1b61-4aa3-b80f-2f98d2a9d66c")
-		)
-		(instances
-			(project "Tumbler2_Redesign"
-				(path "/f3fd8d79-9d35-4c04-811e-2697a2740958/003ca151-4f76-4d52-861b-70be86047379"
-					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -3556,7 +3490,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 155.9052 80.01 0)
 			(effects
 				(font
@@ -3574,7 +3508,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "X5R ±20% 0805 MLCC"
 			(at 154.94 76.2 0)
 			(effects
 				(font
@@ -3583,7 +3517,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" "C59461"
+		(property "LCSC PN" "C45783"
 			(at 154.94 76.2 0)
 			(effects
 				(font
@@ -3593,6 +3527,15 @@
 			)
 		)
 		(property "Sim.Device" ""
+			(at 154.94 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" ""
 			(at 154.94 76.2 0)
 			(effects
 				(font
@@ -3611,94 +3554,6 @@
 			(project "Tumbler2_Redesign"
 				(path "/f3fd8d79-9d35-4c04-811e-2697a2740958/003ca151-4f76-4d52-861b-70be86047379"
 					(reference "C2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 158.75 115.57 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "45f11e7d-3b4b-42b8-a950-43e4e15ebad3")
-		(property "Reference" "C6"
-			(at 162.56 114.2999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "22uF"
-			(at 162.56 116.8399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 159.7152 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 158.75 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 158.75 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC PN" "C59461"
-			(at 158.75 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 158.75 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0bff6a05-4c29-4141-8e9e-b39374641811")
-		)
-		(pin "2"
-			(uuid "f9a43199-f5d7-4933-a9f4-eb6764628512")
-		)
-		(instances
-			(project "Tumbler2_Redesign"
-				(path "/f3fd8d79-9d35-4c04-811e-2697a2740958/003ca151-4f76-4d52-861b-70be86047379"
-					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -4472,6 +4327,103 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 170.18 115.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7313fa13-6f3c-4bba-913e-4dd7f2dd725d")
+		(property "Reference" "C7"
+			(at 173.99 114.2999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22uF"
+			(at 173.99 116.8399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 171.1452 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 170.18 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "X5R ±20% 0805 MLCC"
+			(at 170.18 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C45783"
+			(at 170.18 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 170.18 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 170.18 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "64c9f35a-71df-4458-8e6e-8aa536855e70")
+		)
+		(pin "2"
+			(uuid "ee45c09c-3dbb-41f4-bf56-93e7d8f1aa05")
+		)
+		(instances
+			(project "Tumbler2_Redesign"
+				(path "/f3fd8d79-9d35-4c04-811e-2697a2740958/003ca151-4f76-4d52-861b-70be86047379"
+					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 146.05 127 0)
 		(unit 1)
@@ -4677,7 +4629,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "8ad8fab5-424b-457b-9153-71e973572dc9")
 		(property "Reference" "D2"
 			(at 182.88 79.0574 90)
@@ -4715,13 +4666,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Light emitting diode"
-			(at 179.07 78.74 0)
+		(property "Description" "green"
+			(at 176.022 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
@@ -4744,6 +4694,15 @@
 		)
 		(property "Sim.Device" ""
 			(at 179.07 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 179.07 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5322,7 +5281,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 167.64 68.58 270)
+		(at 170.18 68.58 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5331,7 +5290,7 @@
 		(fields_autoplaced yes)
 		(uuid "c43d56ff-1d40-4b62-83fc-936f8c04ae26")
 		(property "Reference" "#FLG02"
-			(at 169.545 68.58 0)
+			(at 172.085 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5340,7 +5299,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 171.45 68.5799 90)
+			(at 173.99 68.5799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5350,7 +5309,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 167.64 68.58 0)
+			(at 170.18 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5359,7 +5318,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 167.64 68.58 0)
+			(at 170.18 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5368,7 +5327,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 167.64 68.58 0)
+			(at 170.18 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5825,7 +5784,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "680"
+		(property "Value" "1k"
 			(at 181.61 71.1199 0)
 			(effects
 				(font
@@ -5861,7 +5820,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" "C23228"
+		(property "LCSC PN" "C21190"
 			(at 179.07 69.85 0)
 			(effects
 				(font
@@ -5871,6 +5830,15 @@
 			)
 		)
 		(property "Sim.Device" ""
+			(at 179.07 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" ""
 			(at 179.07 69.85 0)
 			(effects
 				(font
@@ -6185,6 +6153,103 @@
 			(project "Tumbler2_Redesign"
 				(path "/f3fd8d79-9d35-4c04-811e-2697a2740958/003ca151-4f76-4d52-861b-70be86047379"
 					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 124.46 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f71be4c5-453e-4961-8a9c-8415b1eb8bf3")
+		(property "Reference" "C1"
+			(at 128.27 74.9299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22uF"
+			(at 128.27 77.4699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 125.4252 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 124.46 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "X5R ±20% 0805 MLCC"
+			(at 124.46 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C45783"
+			(at 124.46 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 124.46 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 124.46 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3d8c7e3f-889f-4689-a2b6-a4976ea2426a")
+		)
+		(pin "2"
+			(uuid "42816c54-fd36-4d35-ade0-40d6194e503c")
+		)
+		(instances
+			(project "Tumbler2_Redesign"
+				(path "/f3fd8d79-9d35-4c04-811e-2697a2740958/003ca151-4f76-4d52-861b-70be86047379"
+					(reference "C1")
 					(unit 1)
 				)
 			)

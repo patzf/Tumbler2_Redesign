@@ -5,8 +5,11 @@
 	(uuid "273c29f8-ba36-44f7-baf4-90ca0a26ff84")
 	(paper "A4")
 	(title_block
-		(title "Tumbler 2 Redesign")
-		(rev "1.0")
+		(title "${TITLE}")
+		(rev "${REVISION}")
+		(company "${COMPANY}")
+		(comment 1 "${AUTHOR1}, ${AUTHOR2}, ${AUTHOR3} ")
+		(comment 2 "Stefan Kummer")
 	)
 	(lib_symbols
 		(symbol "Connector:USB_C_Receptacle_USB2.0_16P"

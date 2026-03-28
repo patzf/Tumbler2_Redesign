@@ -4,6 +4,13 @@
 	(generator_version "9.0")
 	(uuid "505b0135-b364-42cb-817c-560da48fb00b")
 	(paper "A4")
+	(title_block
+		(title "${TITLE}")
+		(rev "${REVISION}")
+		(company "${COMPANY}")
+		(comment 1 "${AUTHOR1}, ${AUTHOR2}, ${AUTHOR3} ")
+		(comment 2 "Stefan Kummer")
+	)
 	(lib_symbols
 		(symbol "Device:C"
 			(pin_numbers

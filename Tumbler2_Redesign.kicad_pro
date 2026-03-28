@@ -866,5 +866,12 @@
       "RGB LEDs"
     ]
   ],
-  "text_variables": {}
+  "text_variables": {
+    "AUTHOR1": "Valentin Maier",
+    "AUTHOR2": "Stefan Kummer",
+    "AUTHOR3": "Franz Patz",
+    "COMPANY": "HTL BULME Graz-Gösting",
+    "REVISION": "1.0",
+    "TITLE": "Tumbler 2 Redesign"
+  }
 }
